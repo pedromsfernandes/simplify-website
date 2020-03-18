@@ -6,26 +6,39 @@ import Container from "react-bootstrap/Container"
 import Nav from "react-bootstrap/Nav"
 import Navbar from "react-bootstrap/Navbar"
 
+import SimplifyLogoWhite from "../images/simplify-logo-white.png"
+
 const Header = ({ siteTitle }) => (
   <Container>
     <header>
-      <Navbar bg="bg-transparent" expand="lg">
-        <Navbar.Brand href="#home">{siteTitle}</Navbar.Brand>
+      <Navbar className="bg-transparent" expand="md">
+        <Navbar.Brand>
+          <img src={SimplifyLogoWhite} height="30" alt="React Bootstrap logo" />
+        </Navbar.Brand>
+
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
-        <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="mr-auto">
-            <Nav.Link>
-              <Link to="/">Home</Link>
-            </Nav.Link>
-            <Nav.Link>
-              <Link to="/projects">Projects</Link>
-            </Nav.Link>
-            <Nav.Link>
-              <Link to="/team">Team</Link>
-            </Nav.Link>
-            <Nav.Link>
-              <Link to="/contact">Contact</Link>
-            </Nav.Link>
+        <Navbar.Collapse id="basic-navbar-nav" className="justify-content-end">
+          <Nav>
+            <Nav.Item>
+              <Nav.Link as="span">
+                <Link to="/">Home</Link>
+              </Nav.Link>
+            </Nav.Item>
+            <Nav.Item>
+              <Nav.Link as="span">
+                <Link to="/projects">Projects</Link>
+              </Nav.Link>
+            </Nav.Item>
+            <Nav.Item>
+              <Nav.Link as="span">
+                <Link to="/team">Team</Link>
+              </Nav.Link>
+            </Nav.Item>
+            <Nav.Item>
+              <Nav.Link as="span">
+                <Link to="/contact">Contact</Link>
+              </Nav.Link>
+            </Nav.Item>
           </Nav>
         </Navbar.Collapse>
       </Navbar>
