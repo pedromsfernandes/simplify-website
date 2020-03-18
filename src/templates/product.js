@@ -1,6 +1,7 @@
 import React from "react"
 import { graphql } from "gatsby"
 import SEO from "../components/seo"
+import Subscribe from "../components/products/Subscribe"
 import Img from "gatsby-image"
 
 export default function Template({ data }) {
@@ -13,6 +14,7 @@ export default function Template({ data }) {
       <div>{product.frontmatter.about}</div>
       <div dangerouslySetInnerHTML={{ __html: product.html }}></div>
       <Img fluid={product.frontmatter.main_image.childImageSharp.fluid} />
+      <Subscribe />
     </>
   )
 }
