@@ -13,7 +13,13 @@ const Header = ({ siteTitle }) => (
     <header>
       <Navbar className="bg-transparent" expand="md">
         <Navbar.Brand>
-          <img src={SimplifyLogoWhite} height="30" alt="React Bootstrap logo" />
+          <Link to="/">
+            <img
+              src={SimplifyLogoWhite}
+              height="30"
+              alt="React Bootstrap logo"
+            />
+          </Link>
         </Navbar.Brand>
 
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
