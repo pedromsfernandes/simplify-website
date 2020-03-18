@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat");
+
+body {
+  background-color: var(--blue);
+  color: var(--white);
+
+  font-family: "Montserrat", sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+a,
+a:hover,
+.navbar-brand {
+  text-decoration: none;
+  color: var(--white);
+}
+
+h1 {
+  font-weight: 900;
+}
+
+p {
+  max-width: 30rem;
+}
+
+.navbar {
+  padding: 1.5rem 0;
+}
+
+.nav-link a {
+  color: var(--grey);
+}
+
+.nav-link a:hover {
+  color: var(--white);
+  border-bottom: 2px solid var(--yellow);
+  padding-bottom: 2px;
+}
+
+/**
+  Add custom CSS here
+*/
