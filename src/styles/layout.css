@@ -32,6 +32,10 @@ p {
   color: var(--grey);
 }
 
+.nav-link a[aria-current="page"] {
+  color: var(--white);
+}
+
 .nav-link a:hover {
   color: var(--white);
   border-bottom: 2px solid var(--yellow);
