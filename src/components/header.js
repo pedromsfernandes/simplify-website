@@ -6,7 +6,7 @@ import Container from "react-bootstrap/Container"
 import Nav from "react-bootstrap/Nav"
 import Navbar from "react-bootstrap/Navbar"
 
-import SimplifyLogoWhite from "../images/simplify-logo-white.png"
+import SimplifyLogoWhite from "../images/svg/simplify-logo.svg"
 
 const Header = ({ siteTitle }) => (
   <Container>
@@ -14,11 +14,7 @@ const Header = ({ siteTitle }) => (
       <Navbar className="bg-transparent" expand="md">
         <Navbar.Brand>
           <Link to="/">
-            <img
-              src={SimplifyLogoWhite}
-              height="30"
-              alt="React Bootstrap logo"
-            />
+            <SimplifyLogoWhite />
           </Link>
         </Navbar.Brand>
 
