@@ -29,7 +29,7 @@ module.exports = {
       resolve: "gatsby-plugin-react-svg",
       options: {
         rule: {
-          include: /\.inline\.svg$/,
+          include: `${__dirname}/src/images/svg`,
         },
       },
     },
@@ -42,7 +42,7 @@ module.exports = {
         background_color: `#663399`,
         theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `src/images/simplify-logo.png`, // This path is relative to the root of the site.
+        icon: `src/images/svg/simplify-logo.svg`, // This path is relative to the root of the site.
       },
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality
