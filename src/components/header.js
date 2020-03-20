@@ -28,7 +28,7 @@ const Header = ({ siteTitle, className }) => (
             </Nav.Item>
             <Nav.Item>
               <Nav.Link as="span">
-                <Link to="/projects">Projects</Link>
+                <Link to="/products">Products</Link>
               </Nav.Link>
             </Nav.Item>
             <Nav.Item>
