@@ -12,7 +12,7 @@ const Footer = () => (
             general@simplify.com
           </a>
           &nbsp;
-          <a href="tel:+351 927 777 939">+351 927 777 939</a>
+          <a href="tel:+351 910 651 413">+351 910 651 413</a>
         </p>
       </div>
     </footer>

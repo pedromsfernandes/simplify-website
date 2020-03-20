@@ -17,8 +17,8 @@ const ContactHeader = () => (
         </a>
       </Col>
       <Col className={[styles.rightCol, styles.infoCol].join(" ")} md="6">
-        <a href="tel:+351 927 777 939" className={styles.info}>
-          +351 927 777 939
+        <a href="tel:+351 910 651 413" className={styles.info}>
+          +351 910 651 413
         </a>
       </Col>
     </Row>
