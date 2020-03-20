@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Montserrat:400,700");
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700");
 
 body {
   background-color: var(--blue);
@@ -14,14 +14,6 @@ a:hover,
 .navbar-brand {
   text-decoration: none;
   color: var(--white);
-}
-
-h1 {
-  font-weight: 900;
-}
-
-p {
-  max-width: 30rem;
 }
 
 .navbar {
@@ -42,6 +34,28 @@ p {
   padding-bottom: 2px;
 }
 
-/**
-  Add custom CSS here
-*/
+section,
+footer {
+  padding: 4rem 0;
+}
+
+h1 {
+  font-weight: 600;
+}
+
+.hero h1 {
+  font-size: 4rem;
+}
+
+.hero p {
+  max-width: 35rem;
+}
+
+.products {
+  background-color: var(--dark-blue);
+}
+
+.about-us,
+.about-team {
+  background-color: var(--darker-blue);
+}
