@@ -8,11 +8,11 @@ const Footer = () => (
       <div>
         <h1>Interested in working together?</h1>
         <p>
-          <a href="mailto:email@simplify.com" target="_blank">
-            email@simplify.com
+          <a href="mailto:general@simplify.com" target="_blank">
+            general@simplify.com
           </a>
           &nbsp;
-          <a href="tel:+351 999 999 999">+351 999 999 999</a>
+          <a href="tel:+351 927 777 939">+351 927 777 939</a>
         </p>
       </div>
     </footer>

@@ -1,0 +1,16 @@
+.form {
+  border-radius: 8px;
+  border-width: 3px;
+  border-color: var(--white);
+  padding: 1.5rem 1rem;
+}
+
+.form.textarea {
+  padding: 1rem;
+}
+
+.form:focus {
+  border-color: var(--dark-blue);
+  color: var(--dark-blue);
+  font-weight: 600;
+}

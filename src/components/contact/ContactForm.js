@@ -1,5 +1,6 @@
 import React, { useState } from "react"
-import { Form, Button } from "react-bootstrap"
+import { Form, Button, Row, Col } from "react-bootstrap"
+import styles from "./ContactForm.module.css"
 
 const encode = data =>
   Object.keys(data)
@@ -35,40 +36,55 @@ const ContactForm = () => {
       onSubmit={handleSubmit}
     >
       <input type="hidden" name="form-name" value="contact" />
-      <Form.Group>
-        <Form.Label>Name</Form.Label>
-        <Form.Control
-          name="name"
-          type="text"
-          placeholder="Your name"
-          value={name}
-          onChange={e => setName(e.target.value)}
-        />
-      </Form.Group>
-      <Form.Group>
-        <Form.Label>Email</Form.Label>
-        <Form.Control
-          name="email"
-          type="email"
-          placeholder="Your email"
-          value={email}
-          onChange={e => setEmail(e.target.value)}
-        />
-      </Form.Group>
-      <Form.Group>
-        <Form.Label>Message</Form.Label>
-        <Form.Control
-          name="message"
-          as="textarea"
-          rows="3"
-          placeholder="Your message"
-          value={message}
-          onChange={e => setMessage(e.target.value)}
-        />
-      </Form.Group>
-      <Button type="submit" variant="primary">
-        Send form
-      </Button>
+      <Row>
+        <Col md="6">
+          <Form.Group>
+            <Form.Label className={styles.label}>Name</Form.Label>
+            <Form.Control
+              name="name"
+              type="text"
+              placeholder="Your name"
+              value={name}
+              onChange={e => setName(e.target.value)}
+              className="form"
+            />
+          </Form.Group>
+        </Col>
+        <Col md="6">
+          <Form.Group>
+            <Form.Label className={styles.label}>Email</Form.Label>
+            <Form.Control
+              name="email"
+              type="email"
+              placeholder="Your email"
+              value={email}
+              onChange={e => setEmail(e.target.value)}
+              className="form"
+            />
+          </Form.Group>
+        </Col>
+      </Row>
+      <Row>
+        <Col xs="12">
+          <Form.Group>
+            <Form.Label className={styles.label}>Message</Form.Label>
+            <Form.Control
+              name="message"
+              as="textarea"
+              rows="6"
+              placeholder="Your message"
+              value={message}
+              onChange={e => setMessage(e.target.value)}
+              className="form textarea"
+            />
+          </Form.Group>
+        </Col>
+        <Col xs="12">
+          <Button type="submit" variant="primary" className="btn-default" block>
+            Send form
+          </Button>
+        </Col>
+      </Row>
     </Form>
   )
 }
