@@ -25,6 +25,8 @@ const ContactForm = () => {
         message,
       }),
     })
+      .then()
+      .catch()
   }
 
   return (
@@ -34,6 +36,7 @@ const ContactForm = () => {
       data-netlify="true"
       data-netlify-honeypot="bot-field"
       onSubmit={handleSubmit}
+      className={styles.form}
     >
       <input type="hidden" name="form-name" value="contact" />
       <Row>
@@ -64,7 +67,7 @@ const ContactForm = () => {
           </Form.Group>
         </Col>
       </Row>
-      <Row>
+      <Row className="mt-md-3">
         <Col xs="12">
           <Form.Group>
             <Form.Label className={styles.label}>Message</Form.Label>

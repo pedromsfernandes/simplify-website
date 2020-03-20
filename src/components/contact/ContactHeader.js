@@ -6,8 +6,8 @@ import styles from "./ContactHeader.module.css"
 const ContactHeader = () => (
   <>
     <h1 className={styles.h1}>Contact us</h1>
-    <Row>
-      <Col className="text-left">
+    <Row className="mb-5 text-center">
+      <Col className={styles.leftCol} md="6">
         <a
           href="mailto:general@simplify.com"
           target="_blank"
@@ -16,7 +16,7 @@ const ContactHeader = () => (
           general@simplify.com
         </a>
       </Col>
-      <Col className="text-right">
+      <Col className={[styles.rightCol, styles.infoCol].join(" ")} md="6">
         <a href="tel:+351 927 777 939" className={styles.info}>
           +351 927 777 939
         </a>
