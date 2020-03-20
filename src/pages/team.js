@@ -1,17 +1,18 @@
 import React from "react"
+import { Link } from "gatsby"
 
 import Container from "react-bootstrap/Container"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
-const NotFoundPage = () => (
+const TeamPage = () => (
   <Layout>
     <Container>
-      <SEO title="404: Not found" />
-      <h1>NOT FOUND</h1>
-      <p>You just hit a route that doesn&#39;t exist... the sadness.</p>
+      <SEO title="Team" />
+      <h1>Team</h1>
+      <p>Welcome to team page</p>
     </Container>
   </Layout>
 )
 
-export default NotFoundPage
+export default TeamPage
