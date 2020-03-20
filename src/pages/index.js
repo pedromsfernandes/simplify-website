@@ -1,20 +1,27 @@
 import React from "react"
 import { Link } from "gatsby"
 
+import Container from "react-bootstrap/Container"
 import Layout from "../components/layout"
-import Image from "../components/image"
 import SEO from "../components/seo"
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Home" />
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-      <Image />
-    </div>
-    <Link to="/page-2/">Go to page 2</Link>
+    <Container>
+      <SEO title="Home" />
+      <h1>
+        Simplify your
+        <br />
+        projects for
+        <br />
+        better business
+      </h1>
+      <p>
+        We are a multidisciplinary company that can help you to find a quick and
+        easy way to solve any burden of your everyday tasks using technology and
+        multimedia.
+      </p>
+    </Container>
   </Layout>
 )
 
