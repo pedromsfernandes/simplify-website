@@ -41,6 +41,7 @@ footer {
 
 h1 {
   font-weight: 600;
+  margin-bottom: 4rem;
 }
 
 .hero h1 {
@@ -51,11 +52,39 @@ h1 {
   max-width: 35rem;
 }
 
+.hero-art {
+  max-width: 100%;
+}
+
 .products {
   background-color: var(--dark-blue);
+}
+
+.products h1 {
+  text-align: center;
+}
+
+.product-card {
+  margin-bottom: 6rem;
+}
+
+.product-card .title {
+  font-size: 1.4rem;
+  font-weight: 600;
+  padding-bottom: 0;
+  margin-bottom: 0.4rem;
+}
+
+.product-card img {
+  max-width: 100%;
 }
 
 .about-us,
 .about-team {
   background-color: var(--darker-blue);
+}
+
+.about-us h3 {
+  text-align: center;
+  margin-bottom: 2rem;
 }
