@@ -2,21 +2,21 @@
   {
     "name": "Product A",
     "description": "Description for Product A",
-    "image": "require('../images/placeholder.png')"
+    "image": "../../../images/placeholder.png"
   },
   {
     "name": "Product B",
     "description": "Description for Product B",
-    "image": "require('../images/placeholder.png')"
+    "image": "../../images/placeholder.png"
   },
   {
     "name": "Product C",
     "description": "Description for Product C",
-    "image": "require('../images/placeholder.png')"
+    "image": "../../images/placeholder.png"
   },
   {
     "name": "Product D",
     "description": "Description for Product D",
-    "image": "require('../images/placeholder.png')"
+    "image": "../../images/placeholder.png"
   }
 ]
