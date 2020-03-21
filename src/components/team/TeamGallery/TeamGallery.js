@@ -9,15 +9,11 @@ import MemberImage from "../MemberImage/MemberImage.js"
 const TeamGallery = () => {
   const data = useStaticQuery(graphql`
     query {
-      allFile(
-        filter: {
-          extension: { regex: "/(jpg)|(jpeg)|(png)/" }
-          relativeDirectory: { eq: "team" }
-        }
-      ) {
-        edges {
-          node {
-            base
+      allTeamJson {
+        nodes {
+          name
+          course
+          img {
             childImageSharp {
               fixed(width: 160, height: 160) {
                 ...GatsbyImageSharpFixed
@@ -29,21 +25,16 @@ const TeamGallery = () => {
     }
   `)
 
-  const images = [
-    ...data.allFile.edges,
-    ...data.allFile.edges,
-    ...data.allFile.edges,
-    ...data.allFile.edges,
-    ...data.allFile.edges,
-    ...data.allFile.edges,
-  ]
-
   return (
     <Container>
       <Row>
-        {images.map(image => (
+        {data.allTeamJson.nodes.map(member => (
           <Col>
-            <MemberImage image={image} />
+            <MemberImage
+              name={member.name}
+              image={member.img}
+              course={member.course}
+            />
           </Col>
         ))}
       </Row>
