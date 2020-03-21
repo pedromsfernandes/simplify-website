@@ -8,8 +8,8 @@ const Footer = () => (
       <div>
         <h1>Interested in working together?</h1>
         <p>
-          <a href="mailto:general@simplify.com" target="_blank">
-            general@simplify.com
+          <a href="mailto:general@simplify-lgp.tech" target="_blank">
+            general@simplify-lgp.tech
           </a>
           &nbsp;
           <a href="tel:+351 910 651 413">+351 910 651 413</a>

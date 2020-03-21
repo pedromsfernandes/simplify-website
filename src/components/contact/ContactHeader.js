@@ -9,11 +9,11 @@ const ContactHeader = () => (
     <Row className="mb-5 text-center">
       <Col className={styles.leftCol} md="6">
         <a
-          href="mailto:general@simplify.com"
+          href="mailto:general@simplify-lgp.tech"
           target="_blank"
           className={styles.info}
         >
-          general@simplify.com
+          general@simplify-lgp.tech
         </a>
       </Col>
       <Col className={[styles.rightCol, styles.infoCol].join(" ")} md="6">
