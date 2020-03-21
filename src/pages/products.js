@@ -21,14 +21,18 @@ const ProductsPage = () => (
         <Row className="text-center">
           <Col md="6" className="pt-3">
             <div class="product-card">
-              <img src={PlaceholderImg} alt="" />
+              <a href="">
+                <img src={PlaceholderImg} alt={data[0].name} />
+              </a>
               <p className="title text-left pt-1">{data[0].name}</p>
               <p className="text-left">{data[0].description}</p>
             </div>
           </Col>
           <Col md="6" className="pt-3">
             <div class="product-card">
-              <img src={PlaceholderImg} alt="" />
+              <a href="">
+                <img src={PlaceholderImg} alt={data[1].name} />
+              </a>
               <p className="title text-left pt-1">{data[1].name}</p>
               <p className="text-left">{data[1].description}</p>
             </div>
@@ -37,14 +41,18 @@ const ProductsPage = () => (
         <Row className="text-center">
           <Col md="6" className="pt-3">
             <div class="product-card">
-              <img src={PlaceholderImg} alt="" />
+              <a href="">
+                <img src={PlaceholderImg} alt={data[2].name} />
+              </a>
               <p className="title text-left pt-1">{data[2].name}</p>
               <p className="text-left">{data[2].description}</p>
             </div>
           </Col>
           <Col md="6" className="pt-3">
             <div class="product-card">
-              <img src={PlaceholderImg} alt="" />
+              <a href="">
+                <img src={PlaceholderImg} alt={data[3].name} />
+              </a>
               <p className="title text-left pt-1">{data[3].name}</p>
               <p className="text-left">{data[3].description}</p>
             </div>
