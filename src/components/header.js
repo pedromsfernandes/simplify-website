@@ -8,9 +8,9 @@ import Navbar from "react-bootstrap/Navbar"
 
 import SimplifyLogoWhite from "../images/svg/simplify-logo.svg"
 
-const Header = ({ siteTitle }) => (
-  <Container>
-    <header>
+const Header = ({ siteTitle, className }) => (
+  <header className={className}>
+    <Container>
       <Navbar className="bg-transparent" expand="md">
         <Navbar.Brand>
           <Link to="/">
@@ -44,8 +44,8 @@ const Header = ({ siteTitle }) => (
           </Nav>
         </Navbar.Collapse>
       </Navbar>
-    </header>
-  </Container>
+    </Container>
+  </header>
 )
 
 Header.propTypes = {

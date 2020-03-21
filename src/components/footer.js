@@ -3,8 +3,8 @@ import React from "react"
 import Container from "react-bootstrap/Container"
 
 const Footer = () => (
-  <Container>
-    <footer>
+  <footer>
+    <Container>
       <div>
         <h1>Interested in working together?</h1>
         <p>
@@ -15,8 +15,8 @@ const Footer = () => (
           <a href="tel:+351 999 999 999">+351 999 999 999</a>
         </p>
       </div>
-    </footer>
-  </Container>
+    </Container>
+  </footer>
 )
 
 export default Footer

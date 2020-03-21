@@ -42,6 +42,11 @@ p {
   padding-bottom: 2px;
 }
 
+footer {
+  background-color: var(--blue);
+  padding: 2rem 0;
+}
+
 /**
   Add custom CSS here
 */

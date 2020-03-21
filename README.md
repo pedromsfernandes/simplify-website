@@ -40,7 +40,7 @@ This project uses [`Gatsby.js`](https://gatsbyjs.org/). The visual framework use
     ├── src
         ├── components :: General React Components
             ├── home :: Components for the home page
-            ├── projects :: Components for projects pages
+            ├── products :: Components for products pages
             ├── team :: Components for the team page
             └── contact :: Components for the contact page
         ├── data :: Markdown and JSON data to be displayed on the site
