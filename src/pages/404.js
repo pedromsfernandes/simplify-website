@@ -17,7 +17,7 @@ const NotFoundPage = () => (
           <h2>404 - PAGE NOT FOUND</h2>
           <h6>
             The page you are looking for might have been removed, had its name
-            changed or its temporarily unavailable.
+            changed or is temporarily unavailable.
           </h6>
           <Button className="px-4 py-3" href="/" size="lg">
             GO TO HOMEPAGE

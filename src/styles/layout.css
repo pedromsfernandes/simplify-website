@@ -41,6 +41,28 @@ footer {
 .page-not-found h1 {
   font-size: 300px;
   color: var(--yellow);
+  margin-bottom: 0;
+}
+
+.page-not-found h2 {
+  font-weight: 700;
+  padding-bottom: 2rem;
+}
+
+.page-not-found .btn {
+  font-weight: 700;
+  color: var(--dark-blue);
+  background-color: var(--yellow);
+  border-color: var(--yellow);
+  border-radius: 10px;
+  margin-top: 1rem;
+}
+
+.page-not-found .btn:hover {
+  font-weight: 700;
+  color: var(--white);
+  background-color: var(--darker-blue);
+  border-color: var(--darker-blue);
 }
 
 h1 {
@@ -91,4 +113,26 @@ h1 {
 .about-us h3 {
   text-align: center;
   margin-bottom: 2rem;
+}
+
+@media (max-width: 768px) {
+  .page-not-found h1 {
+    font-size: 60px;
+    color: var(--yellow);
+    margin-bottom: 0;
+  }
+
+  .page-not-found h2 {
+    font-size: 15px;
+    font-weight: 700;
+    padding-bottom: 2rem;
+  }
+
+  .page-not-found h6 {
+    font-size: 12px;
+  }
+
+  .page-not-found .btn {
+    font-size: 13px;
+  }
 }
