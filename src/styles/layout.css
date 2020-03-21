@@ -45,7 +45,8 @@ h1 {
 }
 
 .hero h1 {
-  font-size: 4rem;
+  font-size: 5.2rem;
+  margin-bottom: 0;
 }
 
 .hero p {
