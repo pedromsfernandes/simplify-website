@@ -105,14 +105,26 @@ h1 {
 }
 
 .product-card .title {
-  font-size: 1.4rem;
-  font-weight: 600;
+  font-weight: bold;
+  font-size: 24px;
   padding-bottom: 0;
   margin-bottom: 0.4rem;
 }
 
 .product-card img {
   max-width: 100%;
+  filter: brightness(50%);
+  transition: 0.5s;
+}
+
+.product-card img:hover {
+  filter: brightness(100%);
+  cursor: pointer;
+}
+
+.main-title {
+  font-weight: bold;
+  font-size: 72px;
 }
 
 .about-us,
