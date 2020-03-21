@@ -1,4 +1,5 @@
 import React from "react"
+import { Link } from "gatsby"
 
 import Container from "react-bootstrap/Container"
 import { Row, Col } from "react-bootstrap"
@@ -21,40 +22,40 @@ const ProductsPage = () => (
         <Row className="text-center">
           <Col md="6" className="pt-3">
             <div class="product-card">
-              <a href="">
+              <Link to="/products/tasker">
                 <img src={PlaceholderImg} alt={data[0].name} />
-              </a>
-              <p className="title text-left pt-1">{data[0].name}</p>
-              <p className="text-left">{data[0].description}</p>
+                <p className="title text-left pt-1">{data[0].name}</p>
+                <p className="text-left">{data[0].description}</p>
+              </Link>
             </div>
           </Col>
           <Col md="6" className="pt-3">
             <div class="product-card">
-              <a href="">
+              <Link to="/products/seats">
                 <img src={PlaceholderImg} alt={data[1].name} />
-              </a>
-              <p className="title text-left pt-1">{data[1].name}</p>
-              <p className="text-left">{data[1].description}</p>
+                <p className="title text-left pt-1">{data[1].name}</p>
+                <p className="text-left">{data[1].description}</p>
+              </Link>
             </div>
           </Col>
         </Row>
         <Row className="text-center">
           <Col md="6" className="pt-3">
             <div class="product-card">
-              <a href="">
+              <Link to="/products/environ">
                 <img src={PlaceholderImg} alt={data[2].name} />
-              </a>
-              <p className="title text-left pt-1">{data[2].name}</p>
-              <p className="text-left">{data[2].description}</p>
+                <p className="title text-left pt-1">{data[2].name}</p>
+                <p className="text-left">{data[2].description}</p>
+              </Link>
             </div>
           </Col>
           <Col md="6" className="pt-3">
             <div class="product-card">
-              <a href="">
+              <Link to="/products/neuropal">
                 <img src={PlaceholderImg} alt={data[3].name} />
-              </a>
-              <p className="title text-left pt-1">{data[3].name}</p>
-              <p className="text-left">{data[3].description}</p>
+                <p className="title text-left pt-1">{data[3].name}</p>
+                <p className="text-left">{data[3].description}</p>
+              </Link>
             </div>
           </Col>
         </Row>
