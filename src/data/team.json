@@ -1,7 +1,323 @@
 [
   {
-    "name": "André Ramada",
-    "course": "Masters in Multimedia",
-    "role": "Chief Executive Officer"
+    "name": "Aisha Jeanette Animashaun",
+    "e-mail": "up201909481@fe.up.pt",
+    "skype": "aisha_1995@yahoo.de",
+    "mobile": "910752419",
+    "course": "MM"
+  },
+  {
+    "name": "Ana Carolina Gadelha de Almeida",
+    "e-mail": "ccarol.aana@gmail.com",
+    "skype": "935291443",
+    "mobile": "MM"
+  },
+  {
+    "name": "André Santos Ramada",
+    "e-mail": "up201909848@fe.up.pt",
+    "skype": "andreramada@gmail.com",
+    "mobile": "910651413",
+    "course": "MM"
+  },
+  {
+    "name": "Flávia Scalon Fogliato",
+    "e-mail": "up201900095@fe.up.pt",
+    "skype": "N/A",
+    "mobile": "933315269",
+    "course": "MM"
+  },
+  {
+    "name": "Isabella Barbosa Silva",
+    "e-mail": "up201902811@fe.up.pt",
+    "skype": "Isabella.barbosa.s@gmail.com",
+    "mobile": "966511010",
+    "course": "MM"
+  },
+  {
+    "name": "Karina Infante Pereira Nascimento Pedreira",
+    "e-mail": "up201900098@fe.up.pt",
+    "skype": "N/A",
+    "mobile": "938463576",
+    "course": "MM"
+  },
+  {
+    "name": "Leonor Ramos do Bem Cónego",
+    "e-mail": "up201909496@fe.up.pt",
+    "skype": "Leonor.conego@hotmail.com",
+    "mobile": "911738128",
+    "course": "MM"
+  },
+  {
+    "name": "Luana Mendes de Barros",
+    "e-mail": "Luabarros.design@gmail.com",
+    "skype": "N/A",
+    "mobile": "910943237",
+    "course": "MM"
+  },
+  {
+    "name": "Ruben Gomes Amado",
+    "e-mail": "up201902804@fe.up.pt",
+    "skype": "N/A",
+    "mobile": "927662350",
+    "course": "MM"
+  },
+  {
+    "name": "Hugo Paulo Pinho dos Santos Ferreira",
+    "e-mail": "up201203027@fe.up.pt",
+    "skype": "N/A",
+    "mobile": "916676259",
+    "course": "MM"
+  },
+  {
+    "name": "Filipa Abrunhosa de Carvalho e Almeida Prisco",
+    "e-mail": "up201909450@fe.up.pt",
+    "skype": "N/A",
+    "mobile": "912940265",
+    "course": "MESG"
+  },
+  {
+    "name": "João Carlos de Sousa Barquinha",
+    "e-mail": "up201505362@fe.up.pt",
+    "skype": "live:jcbarquinha2",
+    "mobile": "913313020",
+    "course": "MESG"
+  },
+  {
+    "name": "Marcelo Macedo Sousa",
+    "e-mail": "up201902706@fe.up.pt",
+    "skype": "marcelo_macedo@id.uff.br",
+    "mobile": "914285410",
+    "course": "MESG"
+  },
+  {
+    "name": "Margarida Dias Vasques",
+    "e-mail": "up201604215@fe.up.pt",
+    "skype": "N/A",
+    "mobile": "914866136",
+    "course": "MESG"
+  },
+  {
+    "name": "Alexandra Isabel Vieites Mendes",
+    "e-mail": "up201604741@fe.up.pt",
+    "skype": "live:alexavieites",
+    "mobile": "961818799",
+    "course": "MIEIC"
+  },
+  {
+    "name": "Álvaro Francisco Barbosa Miranda",
+    "e-mail": "up201603694@fe.up.pt",
+    "skype": "a.francisco.b.miranda@gmail.com",
+    "mobile": "910823925",
+    "course": "MIEIC"
+  },
+  {
+    "name": "Ana Rita Norinho Pinto",
+    "e-mail": "up201606003@fe.up.pt",
+    "skype": "N/A",
+    "mobile": "914405673",
+    "course": "MIEIC"
+  },
+  {
+    "name": "Ana Sá e Sousa Carneiro da Silva",
+    "e-mail": "up201604105@fe.up.pt",
+    "skype": "anasasousasilva@gmail.com",
+    "mobile": "934936695",
+    "course": "MIEIC"
+  },
+  {
+    "name": "António Manuel Ribeiro Pereira da Costa",
+    "e-mail": "up201609065@fe.up.pt",
+    "skype": "amrpcosta@gmail.com",
+    "mobile": "919895332",
+    "course": "MIEIC"
+  },
+  {
+    "name": "Cláudio Fischer Lemos",
+    "e-mail": "up201603542@fe.up.pt",
+    "skype": "live:.cid.743193aa4ce56517",
+    "mobile": "915635021",
+    "course": "MIEIC"
+  },
+  {
+    "name": "Dinis Falcão Leite Moreira",
+    "e-mail": "up201503092@fe.up.pt",
+    "skype": "N/A",
+    "mobile": "927559654",
+    "course": "MIEIC"
+  },
+  {
+    "name": "Diogo Filipe da Silva Yaguas",
+    "e-mail": "up201606165@fe.up.pt",
+    "skype": "epilife_avlis",
+    "mobile": "912858940",
+    "course": "MIEIC"
+  },
+  {
+    "name": "Diogo Manuel Oliveira Moreira",
+    "e-mail": "up201504359@fe.up.pt",
+    "skype": "N/A",
+    "mobile": "917540759",
+    "course": "MIEIC"
+  },
+  {
+    "name": "Duarte Manuel Marques Mano Menezes Frazão",
+    "e-mail": "up201605658@fe.up.pt",
+    "skype": "duartemarquesmano@gmail.com",
+    "mobile": "925631344",
+    "course": "MIEIC"
+  },
+  {
+    "name": "Eduardo Luís Pinheiro da Silva",
+    "e-mail": "up201603135@fe.up.pt",
+    "skype": "eduardo__lps@hotmail.com",
+    "mobile": "967808579",
+    "course": "MIEIC"
+  },
+  {
+    "name": "Elgner Eristido Gomes Ramos",
+    "e-mail": "ei12173fe.up.pt",
+    "skype": "live:elgneramos_1",
+    "mobile": "939680796",
+    "course": "MIEIC"
+  },
+  {
+    "name": "Fábio Alexandre Matos Azevedo",
+    "e-mail": "up201606540@fe.up.pt",
+    "skype": "fabioalexandre7b12@gmail.com",
+    "mobile": "939269492",
+    "course": "MIEIC"
+  },
+  {
+    "name": "Fábio Filipe Vilela Oliveira",
+    "e-mail": "up201604796@fe.up.pt",
+    "skype": "fabokotu",
+    "mobile": "931765064",
+    "course": "MIEIC"
+  },
+  {
+    "name": "Francisco Costa Filipe de Almeida",
+    "e-mail": "up201909574@fe.up.pt",
+    "skype": "fcf_almeida@outlook.com",
+    "mobile": "916376057",
+    "course": "MIEIC"
+  },
+  {
+    "name": "Gonçalo Nuno Botelho Amaral Rolão Bernardo",
+    "e-mail": "up201606058@fe.up.pt",
+    "skype": "goncalonunobernardo@gmail.com",
+    "mobile": "918047432",
+    "course": "MIEIC"
+  },
+  {
+    "name": "Guilherme dos Santos Amaro",
+    "e-mail": "up201508537@fe.up.pt",
+    "skype": "N/A",
+    "mobile": "934329196",
+    "course": "MIEIC"
+  },
+  {
+    "name": "Guilherme Vale Martins",
+    "e-mail": "oguilhermevale@gmail.com",
+    "skype": "N/A",
+    "mobile": "912849175",
+    "course": "MIEIC"
+  },
+  {
+    "name": "Henrique Reis Sendim Rodrigues",
+    "e-mail": "up201606462@fe.up.pt",
+    "skype": "live:henrique000",
+    "mobile": "933097201",
+    "course": "MIEIC"
+  },
+  {
+    "name": "João Miguel Vaz Tello da Gama Amaral",
+    "e-mail": "joaovgamaamaral@gmail.com",
+    "skype": "N/A",
+    "mobile": "960349124",
+    "course": "MIEIC"
+  },
+  {
+    "name": "João Moranguinho Bastardo Moura",
+    "e-mail": "up201405197@fe.up.pt",
+    "skype": "live:joao.moranguinho13",
+    "mobile": "960303293",
+    "course": "MIEIC"
+  },
+  {
+    "name": "Márcia Sofia de Sousa Meira",
+    "e-mail": "up201604350@fe.up.pt",
+    "skype": "N/A",
+    "mobile": "929084421",
+    "course": "MIEIC"
+  },
+  {
+    "name": "Maria Carolina Furtado Soares",
+    "e-mail": "up201605010@fe.up.pt",
+    "skype": "mcarolina.soares@outlook.com",
+    "mobile": "910923784",
+    "course": "MIEIC"
+  },
+  {
+    "name": "Maria Helena Sampaio de Mendonca Montenegro e Almeida",
+    "e-mail": "up201604184@fe.up.pt",
+    "skype": "helena_-_98@hotmail.com",
+    "mobile": "915595369",
+    "course": "MIEIC"
+  },
+  {
+    "name": "Mariana Barbosa Aguiar",
+    "e-mail": "marianabarbosaaguiar@gmail.com",
+    "skype": "N/A",
+    "mobile": "917606225",
+    "course": "MIEIC"
+  },
+  {
+    "name": "Pedro Filipe Vilhena de Campos Oliveira e Silva",
+    "e-mail": "up201304961@fe.up.pt",
+    "skype": "N/A",
+    "mobile": "913449258",
+    "course": "MIEIC"
+  },
+  {
+    "name": "Pedro Miguel Sousa da Costa",
+    "e-mail": "up201605339@fe.up.pt",
+    "skype": "N/A",
+    "mobile": "932608519",
+    "course": "MIEIC"
+  },
+  {
+    "name": "Pedro Miguel Sousa Fernandes",
+    "e-mail": "up201603846@fe.up.pt",
+    "skype": "pedroquaresma_fcp@hotmail.com",
+    "mobile": "927777939",
+    "course": "MIEIC"
+  },
+  {
+    "name": "Ricardo Manuel Ferreira Teixeira",
+    "e-mail": "up201604911@fe.up.pt",
+    "skype": "ricardomft@gmail.com",
+    "mobile": "933999557",
+    "course": "MIEIC"
+  },
+  {
+    "name": "Ricardo Ribeiro Sanfins Moura",
+    "e-mail": "up201604912@fe.up.pt",
+    "skype": "N/A",
+    "mobile": "931496136",
+    "course": "MIEIC"
+  },
+  {
+    "name": "Rui Jorge Leão Guedes",
+    "e-mail": "up201603854@fe.up.pt",
+    "skype": "live:ruiguedes12",
+    "mobile": "914885080",
+    "course": "MIEIC"
+  },
+  {
+    "name": "Tiago José Viana Fragoso",
+    "e-mail": "up201606040@fe.up.pt",
+    "skype": "N/A",
+    "mobile": "912489069",
+    "course": "MIEIC"
   }
 ]
