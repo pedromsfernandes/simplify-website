@@ -38,6 +38,10 @@ section,
 footer {
   padding: 4rem 0;
 }
+.page-not-found h1 {
+  font-size: 300px;
+  color: var(--yellow);
+}
 
 h1 {
   font-weight: 600;
