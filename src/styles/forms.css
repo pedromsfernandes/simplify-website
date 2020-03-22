@@ -1,0 +1,15 @@
+.input {
+  border-radius: 8px;
+  border-width: 3px;
+  padding: 1.5rem 1rem;
+}
+
+.input.textarea {
+  padding: 1rem;
+}
+
+.input:focus {
+  border-color: var(--dark-blue);
+  color: var(--dark-blue);
+  font-weight: 600;
+}
