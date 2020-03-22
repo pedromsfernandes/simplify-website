@@ -19,7 +19,7 @@ const IndexPage = () => (
     <section className="hero">
       <Container>
         <Row>
-          <Col>
+          <Col lg={8}>
             <h1>
               Simplify your
               <br />
@@ -33,8 +33,8 @@ const IndexPage = () => (
               using technology and multimedia.
             </p>
           </Col>
-          <Col xs={4}>
-            <img className="hero-art" src={HeroArt} alt="" />
+          <Col>
+            <div className="hero-art"></div>
           </Col>
         </Row>
       </Container>
