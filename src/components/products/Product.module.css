@@ -23,11 +23,11 @@
 }
 
 .h1 {
-  font-size: 4.5rem;
+  font-size: 4rem;
   font-weight: bold;
   position: absolute;
   z-index: 2;
-  top: 50%;
+  top: 53%;
   left: 53%;
 }
 
@@ -42,11 +42,11 @@
 @media (min-width: 768px) {
   .carouselContainer {
     width: 900px !important;
-    margin: 5rem 0;
+    margin-bottom: 4rem;
   }
 
   .subscribeContainer {
-    width: 650px !important;
+    width: 900px !important;
   }
 
   .form {
@@ -62,6 +62,10 @@
     width: 635px;
     height: 600px;
   }
+
+  .aboutContainer {
+    margin-bottom: 4rem;
+  }
 }
 
 @media (max-width: 768px) {
@@ -74,7 +78,7 @@
   }
 
   .h1 {
-    top: 40%;
+    top: 42%;
     left: 5%;
   }
 
@@ -88,5 +92,6 @@
 
   .carouselContainer {
     margin-top: 2rem;
+    margin-bottom: 2rem;
   }
 }
