@@ -7,7 +7,8 @@ import Col from "react-bootstrap/Col"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
-import HeroArt from "../images/hero-art.png"
+import data from "../data/productsInformation"
+
 import PlaceholderImg from "../images/placeholder.png"
 import Vac from "../images/vac1.png"
 import Astronauts from "../images/astronauts.png"
@@ -41,36 +42,44 @@ const IndexPage = () => (
     </section>
     <section className="products">
       <Container>
-        <h1>Our Products</h1>
-        <Row>
-          <Col>
+        <h1 className="main-title text-center pt-5">Our Products</h1>
+        <Row className="text-center">
+          <Col md="6" className="pt-3">
             <div class="product-card">
-              <img src={PlaceholderImg} alt="" />
-              <p className="title">Name of the product</p>
-              <p>Description of the product</p>
+              <Link to="/products/tasker">
+                <img src={PlaceholderImg} alt={data[0].name} />
+                <p className="title text-left pt-1">{data[0].name}</p>
+                <p className="text-left">{data[0].description}</p>
+              </Link>
             </div>
           </Col>
-          <Col>
+          <Col md="6" className="pt-3">
             <div class="product-card">
-              <img src={PlaceholderImg} alt="" />
-              <p className="title">Name of the product</p>
-              <p>Description of the product</p>
+              <Link to="/products/seats">
+                <img src={PlaceholderImg} alt={data[1].name} />
+                <p className="title text-left pt-1">{data[1].name}</p>
+                <p className="text-left">{data[1].description}</p>
+              </Link>
             </div>
           </Col>
         </Row>
-        <Row>
-          <Col>
+        <Row className="text-center">
+          <Col md="6" className="pt-3">
             <div class="product-card">
-              <img src={PlaceholderImg} alt="" />
-              <p className="title">Name of the product</p>
-              <p>Description of the product</p>
+              <Link to="/products/environ">
+                <img src={PlaceholderImg} alt={data[2].name} />
+                <p className="title text-left pt-1">{data[2].name}</p>
+                <p className="text-left">{data[2].description}</p>
+              </Link>
             </div>
           </Col>
-          <Col>
+          <Col md="6" className="pt-3">
             <div class="product-card">
-              <img src={PlaceholderImg} alt="" />
-              <p className="title">Name of the product</p>
-              <p>Description of the product</p>
+              <Link to="/products/neuropal">
+                <img src={PlaceholderImg} alt={data[3].name} />
+                <p className="title text-left pt-1">{data[3].name}</p>
+                <p className="text-left">{data[3].description}</p>
+              </Link>
             </div>
           </Col>
         </Row>
