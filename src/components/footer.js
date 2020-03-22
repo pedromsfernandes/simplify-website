@@ -6,7 +6,9 @@ const Footer = () => (
   <Container>
     <footer>
       <div>
-        <h1>Interested in working together?</h1>
+        <h1>
+          Interested in <br /> working together?
+        </h1>
         <p>
           <a href="mailto:email@simplify.com" target="_blank">
             email@simplify.com
