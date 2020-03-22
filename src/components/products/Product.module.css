@@ -40,7 +40,12 @@
 }
 
 @media (min-width: 768px) {
-  .container {
+  .carouselContainer {
+    width: 900px !important;
+    margin: 5rem 0;
+  }
+
+  .subscribeContainer {
     width: 650px !important;
   }
 
@@ -51,6 +56,11 @@
   .info {
     margin: 0 auto;
     width: 50%;
+  }
+
+  .image {
+    width: 635px;
+    height: 600px;
   }
 }
 
@@ -64,7 +74,7 @@
   }
 
   .h1 {
-    top: 30%;
+    top: 40%;
     left: 5%;
   }
 
@@ -74,5 +84,9 @@
 
   .aboutContainer {
     margin-top: 1rem;
+  }
+
+  .carouselContainer {
+    margin-top: 2rem;
   }
 }

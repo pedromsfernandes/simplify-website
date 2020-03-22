@@ -4,9 +4,9 @@ import Img from "gatsby-image"
 
 import styles from "./Product.module.css"
 
-const ProductImages = ({ images }) => {
-  return (
-    <Container className={styles.container}>
+const ProductImages = ({ images }) =>
+  images && (
+    <Container className={styles.carouselContainer}>
       <Carousel className={styles.carousel}>
         {images.map(({ image }, i) => (
           <Carousel.Item key={i}>
@@ -19,6 +19,5 @@ const ProductImages = ({ images }) => {
       </Carousel>
     </Container>
   )
-}
 
 export default ProductImages

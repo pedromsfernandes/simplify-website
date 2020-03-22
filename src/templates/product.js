@@ -24,8 +24,7 @@ export default function Template({ data }) {
           image={product.frontmatter.main_image.childImageSharp.fluid}
           about={product.frontmatter.about}
         />
-
-        {/* <ProductImages images={product.frontmatter.carousel} /> */}
+        <ProductImages images={product.frontmatter.carousel} />
         <ProductInfo info={product.html} />
         <Subscribe />
       </div>

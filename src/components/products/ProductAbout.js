@@ -9,7 +9,7 @@ const ProductAbout = ({ name, image, about }) => (
     <h1 className={styles.h1}>{name}</h1>
     <Row>
       <Col md="7">
-        <Img fluid={image} alt={name} />
+        <Img fluid={image} alt={name} className={styles.image} />
       </Col>
       <Col md="5" style={{ alignSelf: "flex-end" }}>
         <p className={styles.about}>{about}</p>

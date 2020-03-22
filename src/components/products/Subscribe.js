@@ -21,7 +21,7 @@ const Subscribe = () => {
 
   return (
     <div className={styles.subscribe}>
-      <Container className={styles.container}>
+      <Container className={styles.subscribeContainer}>
         {message ? (
           message
         ) : (
