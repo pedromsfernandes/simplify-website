@@ -1,284 +1,278 @@
 [
   {
-    "name": "Aisha Jeanette Animashaun",
-    "course": "MM",
-    "role": "Developer",
+    "name": "André Ramada",
+    "course": "Multimedia Masters",
+    "role": "CEO",
     "img": "../images/team/default.png"
   },
   {
-    "name": "Ana Carolina Gadelha de Almeida",
-    "course": "MM",
-    "role": "Developer",
-    "img": "../images/team/default.png"
-  },
-  {
-    "name": "André Santos Ramada",
-    "course": "MM",
-    "role": "Developer",
-    "img": "../images/team/default.png"
-  },
-  {
-    "name": "Flávia Scalon Fogliato",
-    "course": "MM",
-    "role": "Developer",
-    "img": "../images/team/default.png"
-  },
-  {
-    "name": "Isabella Barbosa Silva",
-    "course": "MM",
-    "role": "Developer",
-    "img": "../images/team/default.png"
-  },
-  {
-    "name": "Karina Infante Pereira Nascimento Pedreira",
-    "course": "MM",
-    "role": "Developer",
-    "img": "../images/team/default.png"
-  },
-  {
-    "name": "Leonor Ramos do Bem Cónego",
-    "course": "MM",
-    "role": "Developer",
-    "img": "../images/team/default.png"
-  },
-  {
-    "name": "Luana Mendes de Barros",
-    "course": "MM",
-    "role": "Developer",
-    "img": "../images/team/default.png"
-  },
-  {
-    "name": "Ruben Gomes Amado",
-    "course": "MM",
-    "role": "Developer",
-    "img": "../images/team/default.png"
-  },
-  {
-    "name": "Hugo Paulo Pinho dos Santos Ferreira",
-    "course": "MM",
-    "role": "Developer",
-    "img": "../images/team/default.png"
-  },
-  {
-    "name": "Filipa Abrunhosa de Carvalho e Almeida Prisco",
-    "course": "MESG",
-    "role": "Developer",
-    "img": "../images/team/Filipa Prisco.jpg"
-  },
-  {
-    "name": "João Carlos de Sousa Barquinha",
-    "course": "MESG",
-    "role": "Developer",
+    "name": "João Barquinha",
+    "course": "Services Masters",
+    "role": "CBO",
     "img": "../images/team/joão_barquinha.jpg"
   },
   {
-    "name": "Marcelo Macedo Sousa",
-    "course": "MESG",
-    "role": "Developer",
+    "name": "Aisha Animashaun",
+    "course": "Multimedia Master",
+    "role": "CMO",
     "img": "../images/team/default.png"
   },
   {
-    "name": "Margarida Dias Vasques",
-    "course": "MESG",
-    "role": "Developer",
+    "name": "Pedro Fernandes",
+    "course": "Informatics Masters",
+    "role": "CTO",
     "img": "../images/team/default.png"
   },
   {
-    "name": "Alexandra Isabel Vieites Mendes",
-    "course": "MIEIC",
-    "role": "Developer",
+    "name": "Ana Almeida",
+    "course": "Multimedia Masters",
+    "role": "",
     "img": "../images/team/default.png"
   },
   {
-    "name": "Álvaro Francisco Barbosa Miranda",
-    "course": "MIEIC",
-    "role": "Developer",
+    "name": "Flávia Fogliato",
+    "course": "Multimedia Masters",
+    "role": "",
     "img": "../images/team/default.png"
   },
   {
-    "name": "Ana Rita Norinho Pinto",
-    "course": "MIEIC",
-    "role": "Developer",
+    "name": "Isabella Silva",
+    "course": "Multimedia Masters",
+    "role": "",
     "img": "../images/team/default.png"
   },
   {
-    "name": "Ana Sá e Sousa Carneiro da Silva",
-    "course": "MIEIC",
-    "role": "Developer",
+    "name": "Karina Pedreira",
+    "course": "Multimedia Masters",
+    "role": "",
+    "img": "../images/team/default.png"
+  },
+  {
+    "name": "Leonor nego",
+    "course": "Multimedia Masters",
+    "role": "",
+    "img": "../images/team/default.png"
+  },
+  {
+    "name": "Luana Barros",
+    "course": "Multimedia Masters",
+    "role": "",
+    "img": "../images/team/default.png"
+  },
+  {
+    "name": "Ruben Amado",
+    "course": "Multimedia Masters",
+    "role": "",
+    "img": "../images/team/default.png"
+  },
+  {
+    "name": "Hugo Ferreira",
+    "course": "Multimedia Masters",
+    "role": "",
+    "img": "../images/team/default.png"
+  },
+  {
+    "name": "Filipa Prisco",
+    "course": "Services Masters",
+    "role": "",
+    "img": "../images/team/Filipa Prisco.jpg"
+  },
+  {
+    "name": "Marcelo Sousa",
+    "course": "Services Masters",
+    "role": "",
+    "img": "../images/team/default.png"
+  },
+  {
+    "name": "Margarida Vasques",
+    "course": "Services Masters",
+    "role": "",
+    "img": "../images/team/default.png"
+  },
+  {
+    "name": "Alexandra Mendes",
+    "course": "Informatics Masters",
+    "role": "",
+    "img": "../images/team/default.png"
+  },
+  {
+    "name": "Álvaro Miranda",
+    "course": "Informatics Masters",
+    "role": "",
+    "img": "../images/team/default.png"
+  },
+  {
+    "name": "Ana Pinto",
+    "course": "Informatics Masters",
+    "role": "",
+    "img": "../images/team/default.png"
+  },
+  {
+    "name": "Ana Silva",
+    "course": "Informatics Masters",
+    "role": "",
     "img": "../images/team/Ana Sá Silva.jpg"
   },
   {
-    "name": "António Manuel Ribeiro Pereira da Costa",
-    "course": "MIEIC",
-    "role": "Developer",
+    "name": "António Costa",
+    "course": "Informatics Masters",
+    "role": "",
     "img": "../images/team/default.png"
   },
   {
-    "name": "Cláudio Fischer Lemos",
-    "course": "MIEIC",
-    "role": "Developer",
+    "name": "Cláudio Lemos",
+    "course": "Informatics Masters",
+    "role": "",
     "img": "../images/team/default.png"
   },
   {
-    "name": "Dinis Falcão Leite Moreira",
-    "course": "MIEIC",
-    "role": "Developer",
+    "name": "Dinis Moreira",
+    "course": "Informatics Masters",
+    "role": "",
     "img": "../images/team/default.png"
   },
   {
-    "name": "Diogo Filipe da Silva Yaguas",
-    "course": "MIEIC",
-    "role": "Developer",
+    "name": "Diogo Yaguas",
+    "course": "Informatics Masters",
+    "role": "",
     "img": "../images/team/yaguas.png"
   },
   {
-    "name": "Diogo Manuel Oliveira Moreira",
-    "course": "MIEIC",
-    "role": "Developer",
+    "name": "Diogo Moreira",
+    "course": "Informatics Masters",
+    "role": "",
     "img": "../images/team/default.png"
   },
   {
-    "name": "Duarte Manuel Marques Mano Menezes Frazão",
-    "course": "MIEIC",
-    "role": "Developer",
+    "name": "Duarte o",
+    "course": "Informatics Masters",
+    "role": "",
     "img": "../images/team/default.png"
   },
   {
-    "name": "Eduardo Luís Pinheiro da Silva",
-    "course": "MIEIC",
-    "role": "Developer",
+    "name": "Eduardo Silva",
+    "course": "Informatics Masters",
+    "role": "",
     "img": "../images/team/default.png"
   },
   {
-    "name": "Elgner Eristido Gomes Ramos",
-    "course": "MIEIC",
-    "role": "Developer",
+    "name": "Elgner Ramos",
+    "course": "Informatics Masters",
+    "role": "",
     "img": "../images/team/default.png"
   },
   {
-    "name": "Fábio Alexandre Matos Azevedo",
-    "course": "MIEIC",
-    "role": "Developer",
+    "name": "Fábio Azevedo",
+    "course": "Informatics Masters",
+    "role": "",
     "img": "../images/team/default.png"
   },
   {
-    "name": "Fábio Filipe Vilela Oliveira",
-    "course": "MIEIC",
-    "role": "Developer",
+    "name": "Fábio Oliveira",
+    "course": "Informatics Masters",
+    "role": "",
     "img": "../images/team/fabio_oliveira.jpg"
   },
   {
-    "name": "Francisco Costa Filipe de Almeida",
-    "course": "MIEIC",
-    "role": "Developer",
+    "name": "Francisco Almeida",
+    "course": "Informatics Masters",
+    "role": "",
     "img": "../images/team/default.png"
   },
   {
-    "name": "Gonçalo Nuno Botelho Amaral Rolão Bernardo",
-    "course": "MIEIC",
-    "role": "Developer",
+    "name": "Gonçalo Bernardo",
+    "course": "Informatics Masters",
+    "role": "",
     "img": "../images/team/default.png"
   },
   {
-    "name": "Guilherme dos Santos Amaro",
-    "course": "MIEIC",
-    "role": "Developer",
+    "name": "Guilherme Amaro",
+    "course": "Informatics Masters",
+    "role": "",
     "img": "../images/team/default.png"
   },
   {
-    "name": "Guilherme Vale Martins",
-    "course": "MIEIC",
-    "role": "Developer",
+    "name": "Guilherme Martins",
+    "course": "Informatics Masters",
+    "role": "",
     "img": "../images/team/default.png"
   },
   {
-    "name": "Henrique Reis Sendim Rodrigues",
-    "course": "MIEIC",
-    "role": "Developer",
+    "name": "Henrique Rodrigues",
+    "course": "Informatics Masters",
+    "role": "",
     "img": "../images/team/default.png"
   },
   {
-    "name": "João Miguel Vaz Tello da Gama Amaral",
-    "course": "MIEIC",
-    "role": "Developer",
+    "name": "João Amaral",
+    "course": "Informatics Masters",
+    "role": "",
     "img": "../images/team/default.png"
   },
   {
-    "name": "João Moranguinho Bastardo Moura",
-    "course": "MIEIC",
-    "role": "Developer",
+    "name": "João Moura",
+    "course": "Informatics Masters",
+    "role": "",
     "img": "../images/team/default.png"
   },
   {
-    "name": "Márcia Sofia de Sousa Meira",
-    "course": "MIEIC",
-    "role": "Developer",
+    "name": "Márcia Meira",
+    "course": "Informatics Masters",
+    "role": "",
     "img": "../images/team/default.png"
   },
   {
-    "name": "Maria Carolina Furtado Soares",
-    "course": "MIEIC",
-    "role": "Developer",
+    "name": "Maria Soares",
+    "course": "Informatics Masters",
+    "role": "",
     "img": "../images/team/default.png"
   },
   {
-    "name": "Maria Helena Sampaio de Mendonca Montenegro e Almeida",
-    "course": "MIEIC",
-    "role": "Developer",
+    "name": "Maria Almeida",
+    "course": "Informatics Masters",
+    "role": "",
     "img": "../images/team/default.png"
   },
   {
-    "name": "Mariana Barbosa Aguiar",
-    "course": "MIEIC",
-    "role": "Developer",
+    "name": "Mariana Aguiar",
+    "course": "Informatics Masters",
+    "role": "",
     "img": "../images/team/mariana aguiar profile.jpg"
   },
   {
-    "name": "Pedro Filipe Vilhena de Campos Oliveira e Silva",
-    "course": "MIEIC",
-    "role": "Developer",
+    "name": "Pedro Silva",
+    "course": "Informatics Masters",
+    "role": "",
     "img": "../images/team/default.png"
   },
   {
-    "name": "Pedro Miguel Sousa da Costa",
-    "course": "MIEIC",
-    "role": "Developer",
+    "name": "Pedro Costa",
+    "course": "Informatics Masters",
+    "role": "",
     "img": "../images/team/default.png"
   },
   {
-    "name": "Pedro Miguel Sousa Fernandes",
-    "course": "MIEIC",
-    "role": "Developer",
+    "name": "Ricardo Teixeira",
+    "course": "Informatics Masters",
+    "role": "",
     "img": "../images/team/default.png"
   },
   {
-    "name": "Ricardo Manuel Ferreira Teixeira",
-    "course": "MIEIC",
-    "role": "Developer",
+    "name": "Ricardo Moura",
+    "course": "Informatics Masters",
+    "role": "",
     "img": "../images/team/default.png"
   },
   {
-    "name": "Ricardo Ribeiro Sanfins Moura",
-    "course": "MIEIC",
-    "role": "Developer",
+    "name": "Rui Guedes",
+    "course": "Informatics Masters",
+    "role": "",
     "img": "../images/team/default.png"
   },
   {
-    "name": "Rui Jorge Leão Guedes",
-    "course": "MIEIC",
-    "role": "Developer",
-    "img": "../images/team/default.png"
-  },
-  {
-    "name": "Tiago Augusto Pacheco Ludovico Pinto de Barros",
-    "course": "MIEIC",
-    "role": "Developer",
-    "img": "../images/team/default.png"
-  },
-  {
-    "name": "Tiago José Viana Fragoso",
-    "course": "MIEIC",
-    "role": "Developer",
+    "name": "Tiago Fragoso",
+    "course": "Informatics Masters",
+    "role": "",
     "img": "../images/team/tiago_fragoso.jpg"
   }
 ]
