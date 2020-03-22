@@ -87,9 +87,9 @@ const IndexPage = () => (
             <p>
               Simplify is a multidisciplinary creative company at the
               intersection of multimidia, design and technology. Born from a
-              masters disicpline from the University of Porto called Project
-              Management Laboratory, Simplify currently have x collaborators and
-              x active projects.
+              masters discipline from the University of Porto called Project
+              Management Laboratory, Simplify currently have 46 collaborators
+              and 4 products.
             </p>
           </Col>
         </Row>
@@ -146,8 +146,8 @@ const IndexPage = () => (
             </h1>
             <p>
               Simplify team is multidisciplinary, composed by students from the
-              Multimedia masters, x master and y masters from the University of
-              Porto in Portugal.
+              Multimedia Masters, Infomatics Masters and Services Masters from
+              the University of Porto in Portugal.
             </p>
             <p>
               <Link to="/team">Meet our team members</Link>
