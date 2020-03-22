@@ -13,6 +13,7 @@ import PlaceholderImg from "../images/placeholder.png"
 import Vac from "../images/vac1.png"
 import Astronauts from "../images/astronauts.png"
 import Feup from "../images/feup.png"
+import ArrowRight from "../images/svg/arrow-right.svg"
 
 const IndexPage = () => (
   <Layout>
@@ -159,7 +160,9 @@ const IndexPage = () => (
               the University of Porto in Portugal.
             </p>
             <p>
-              <Link to="/team">Meet our team members</Link>
+              <Link to="/team">
+                Meet our team members <ArrowRight className="arrow-right" />
+              </Link>
             </p>
           </Col>
         </Row>

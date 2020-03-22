@@ -155,7 +155,12 @@ footer a {
   font-size: 0.85rem;
   text-transform: uppercase;
   text-decoration: underline;
-  text-decoration-color: var(--orange);
+  text-decoration-color: var(--white);
+}
+
+.arrow-right {
+  fill: var(--yellow);
+  margin-left: 0.5rem;
 }
 
 .about-us h3 {
