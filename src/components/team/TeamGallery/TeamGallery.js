@@ -13,6 +13,7 @@ const TeamGallery = () => {
         nodes {
           name
           course
+          role
           img {
             childImageSharp {
               fixed(width: 160, height: 160) {
@@ -29,11 +30,12 @@ const TeamGallery = () => {
     <Container>
       <Row>
         {data.allTeamJson.nodes.map(member => (
-          <Col>
+          <Col style={{ padding: "5px" }}>
             <MemberImage
               name={member.name}
               image={member.img}
               course={member.course}
+              role={member.role}
             />
           </Col>
         ))}
