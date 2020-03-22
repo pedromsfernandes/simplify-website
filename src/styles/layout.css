@@ -39,9 +39,23 @@ footer {
   padding: 4rem 0;
 }
 
-h1 {
+section h1 {
   font-weight: 600;
-  margin-bottom: 4rem;
+  margin-bottom: 2rem;
+}
+
+footer h1 {
+  font-size: 4rem;
+  text-decoration: underline;
+  margin-bottom: 2.5rem;
+}
+
+footer p {
+  font-size: 1.25rem;
+}
+
+footer a {
+  margin-right: 2rem;
 }
 
 .hero h1 {
@@ -66,7 +80,7 @@ h1 {
 }
 
 .product-card {
-  margin-bottom: 6rem;
+  margin-bottom: 4rem;
 }
 
 .product-card .title {
@@ -92,14 +106,58 @@ h1 {
   font-size: 72px;
 }
 
+.sponsors h3 {
+  margin-top: 4rem;
+}
+
+.sponsors img {
+  opacity: 35%;
+}
+
 .about-us,
 .about-team {
   background-color: var(--darker-blue);
 }
 
+.about-us h1,
+.about-team h1 {
+  position: relative;
+  left: -5.5rem;
+  margin-top: 12rem;
+  margin-bottom: 1rem;
+  font-size: 4rem;
+}
+
+.about-us p,
+.about-team p {
+}
+
+.about-team a {
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  text-decoration: underline;
+  text-decoration-color: var(--orange);
+}
+
 .about-us h3 {
   text-align: center;
   margin-bottom: 2rem;
+}
+
+.principles h1 {
+  font-size: 3.6rem;
+}
+
+.principles h3 {
+  font-weight: bold;
+  margin: 1.5rem 0 1rem 0;
+}
+
+.principles .number {
+  font-size: 0.8rem;
+  font-weight: bold;
+  padding-bottom: 0.4rem;
+  border-bottom: 2px solid var(--orange);
 }
 
 @media (max-width: 768px) {
