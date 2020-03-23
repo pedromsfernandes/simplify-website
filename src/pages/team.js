@@ -4,13 +4,15 @@ import { Link } from "gatsby"
 import Container from "react-bootstrap/Container"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+import TeamGallery from "../components/team/TeamGallery/TeamGallery"
+import TeamHeader from "../components/team/TeamHeader/TeamHeader"
 
 const TeamPage = () => (
   <Layout>
     <Container>
       <SEO title="Team" />
-      <h1>Team</h1>
-      <p>Welcome to team page</p>
+      <TeamHeader />
+      <TeamGallery />
     </Container>
   </Layout>
 )
