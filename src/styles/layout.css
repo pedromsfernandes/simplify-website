@@ -224,7 +224,6 @@ footer a {
     background: url(../images/hero-art-full.png);
     background-size: 100%;
     background-repeat: no-repeat;
-    transform: rotate(290deg);
     margin: 0 auto;
     min-height: 30rem;
     z-index: -1;
