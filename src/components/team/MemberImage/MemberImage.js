@@ -8,7 +8,8 @@ const MemberImage = ({ name, image, course, role }) => {
     width: "160px",
     height: "160px",
     borderRadius: "50%",
-    filter: "grayscale(100%)",
+    filter: "saturate(0)",
+    opacity: 0.5,
   }
 
   return (
