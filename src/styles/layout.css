@@ -38,6 +38,11 @@ footer {
   padding: 4rem 0;
 }
 
+.icon-credit {
+  background-color: var(--light-blue);
+  padding: 0.4rem 0;
+}
+
 .page-not-found h1 {
   font-size: 300px;
   color: var(--yellow);
@@ -202,6 +207,7 @@ footer a {
     background: url(../images/hero-art-full.png);
     background-size: 100%;
     background-repeat: no-repeat;
+    transform: rotate(290deg);
     margin: 0 auto;
     width: 100%;
     height: 100%;
@@ -218,6 +224,7 @@ footer a {
     background: url(../images/hero-art-full.png);
     background-size: 100%;
     background-repeat: no-repeat;
+    transform: rotate(290deg);
     margin: 0 auto;
     min-height: 30rem;
     z-index: -1;
