@@ -138,7 +138,7 @@ footer a {
   filter: saturate(0);
   display: block;
   margin: 0 auto;
-  opacity: 50%;
+  opacity: 0.35;
   padding: 1rem auto;
   max-width: 100%;
   max-height: 5rem;
