@@ -137,10 +137,11 @@ footer a {
 .clients img {
   filter: saturate(0);
   display: block;
-  margin: 1rem auto;
-  opacity: 35%;
+  margin: 0 auto;
+  opacity: 50%;
+  padding: 1rem auto;
   max-width: 100%;
-  max-height: 4rem;
+  max-height: 5rem;
 }
 
 .about-us,
