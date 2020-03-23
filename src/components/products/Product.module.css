@@ -27,15 +27,15 @@
   font-weight: bold;
   position: absolute;
   z-index: 2;
-  top: 53%;
-  left: 53%;
+  top: -4.5rem;
+  left: -15%;
 }
 
 .about {
   font-size: 1.1rem;
 }
 
-.aboutContainer {
+.aboutWrapper {
   position: relative;
 }
 
@@ -78,8 +78,8 @@
   }
 
   .h1 {
-    top: 42%;
-    left: 5%;
+    top: -2.5rem;
+    left: 0rem;
   }
 
   .about {
