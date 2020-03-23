@@ -27,7 +27,7 @@ const TeamGallery = () => {
   `)
 
   return (
-    <Container>
+    <Container className="pb-5">
       <Row>
         {data.allTeamJson.nodes.map(member => (
           <Col style={{ padding: "5px" }}>
