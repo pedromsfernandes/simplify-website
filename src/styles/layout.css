@@ -93,16 +93,6 @@ footer a {
   max-width: 35rem;
 }
 
-.hero-art {
-  background: url(../images/hero-art-full.png);
-  background-size: 100%;
-  background-repeat: no-repeat;
-  margin: 0 auto;
-  width: 100%;
-  height: 100%;
-  z-index: -1;
-}
-
 .product-card {
   margin-bottom: 4rem;
 }
@@ -184,7 +174,7 @@ footer a {
   font-size: 0.8rem;
   font-weight: bold;
   padding-bottom: 0.4rem;
-  border-bottom: 2px solid var(--orange);
+  border-bottom: 2px solid var(--yellow);
 }
 
 @media (min-width: 768px) {
@@ -207,9 +197,32 @@ footer a {
     margin-bottom: 1rem;
     font-size: 4rem;
   }
+
+  .hero-art {
+    background: url(../images/hero-art-full.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+  }
 }
 
 @media (max-width: 768px) {
+  .hero h1 {
+    font-size: 3rem;
+  }
+
+  .hero-art {
+    background: url(../images/hero-art-full.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    min-height: 30rem;
+    z-index: -1;
+  }
+
   .about-us h1,
   .about-team h1 {
     position: relative;
