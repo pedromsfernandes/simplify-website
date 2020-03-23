@@ -37,6 +37,7 @@ section,
 footer {
   padding: 4rem 0;
 }
+
 .page-not-found h1 {
   font-size: 300px;
   color: var(--yellow);
@@ -129,12 +130,17 @@ footer a {
   font-size: 72px;
 }
 
-.sponsors h3 {
+.clients h3 {
   margin-top: 4rem;
 }
 
-.sponsors img {
+.clients img {
+  filter: saturate(0);
+  display: block;
+  margin: 1rem auto;
   opacity: 35%;
+  max-width: 100%;
+  max-height: 4rem;
 }
 
 .about-us,
@@ -142,13 +148,9 @@ footer a {
   background-color: var(--darker-blue);
 }
 
-.about-us h1,
-.about-team h1 {
-  position: relative;
-  left: -5.5rem;
-  margin-top: 12rem;
-  margin-bottom: 1rem;
-  font-size: 4rem;
+.about-team img,
+.about-us img {
+  max-width: 100%;
 }
 
 .about-team a {
@@ -195,9 +197,25 @@ footer a {
     z-index: -1;
     padding: 0 0 5rem 0;
   }
+
+  .about-us h1,
+  .about-team h1 {
+    position: relative;
+    left: -5.5rem;
+    margin-top: 12rem;
+    margin-bottom: 1rem;
+    font-size: 4rem;
+  }
 }
 
 @media (max-width: 768px) {
+  .about-us h1,
+  .about-team h1 {
+    position: relative;
+    top: -3.5rem;
+    font-size: 4rem;
+  }
+
   .products {
     background: url(../images/products.png);
     background-size: cover;

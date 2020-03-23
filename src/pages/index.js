@@ -10,10 +10,14 @@ import SEO from "../components/seo"
 import data from "../data/productsInformation"
 
 import PlaceholderImg from "../images/placeholder.png"
-import Vac from "../images/vac1.png"
 import Astronauts from "../images/astronauts.png"
 import Feup from "../images/feup.png"
 import ArrowRight from "../images/svg/arrow-right.svg"
+
+import Vac from "../images/clients/vac.png"
+import CriticalManufacturing from "../images/clients/critical-manufacturing.jpg"
+import Natixis from "../images/clients/natixis.png"
+import Inova from "../images/clients/inova.png"
 
 const IndexPage = () => (
   <Layout>
@@ -89,7 +93,7 @@ const IndexPage = () => (
     <section className="about-us">
       <Container>
         <Row>
-          <Col>
+          <Col md={6}>
             <img src={Feup} alt="" />
           </Col>
           <Col>
@@ -103,20 +107,20 @@ const IndexPage = () => (
             </p>
           </Col>
         </Row>
-        <div className="sponsors">
+        <div className="clients">
           <h3>Our clients</h3>
           <Row>
-            <Col>
+            <Col xs={12} lg={3}>
               <img src={Vac} alt="" />
             </Col>
-            <Col>
-              <img src={Vac} alt="" />
+            <Col xs={12} lg={3}>
+              <img src={CriticalManufacturing} alt="" />
             </Col>
-            <Col>
-              <img src={Vac} alt="" />
+            <Col xs={12} lg={3}>
+              <img src={Inova} alt="" />
             </Col>
-            <Col>
-              <img src={Vac} alt="" />
+            <Col xs={12} lg={3}>
+              <img src={Natixis} alt="" />
             </Col>
           </Row>
         </div>
@@ -147,7 +151,7 @@ const IndexPage = () => (
     <section className="about-team">
       <Container>
         <Row>
-          <Col>
+          <Col md={6}>
             <img src={Astronauts} alt="" />
           </Col>
           <Col>
