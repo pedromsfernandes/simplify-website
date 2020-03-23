@@ -7,6 +7,8 @@ import Col from "react-bootstrap/Col"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
+import Products from "../components/products"
+
 import data from "../data/productsInformation"
 
 import PlaceholderImg from "../images/placeholder.png"
@@ -46,49 +48,7 @@ const IndexPage = () => (
       </Container>
     </section>
     <section className="products">
-      <Container>
-        <h1 className="main-title text-center pt-5">Our Products</h1>
-        <Row className="text-center">
-          <Col md="6" className="pt-3">
-            <div class="product-card">
-              <Link to="/products/tasker">
-                <img src={PlaceholderImg} alt={data[0].name} />
-                <p className="title text-left pt-1">{data[0].name}</p>
-                <p className="text-left">{data[0].description}</p>
-              </Link>
-            </div>
-          </Col>
-          <Col md="6" className="pt-3">
-            <div class="product-card">
-              <Link to="/products/seats">
-                <img src={PlaceholderImg} alt={data[1].name} />
-                <p className="title text-left pt-1">{data[1].name}</p>
-                <p className="text-left">{data[1].description}</p>
-              </Link>
-            </div>
-          </Col>
-        </Row>
-        <Row className="text-center">
-          <Col md="6" className="pt-3">
-            <div class="product-card">
-              <Link to="/products/environ">
-                <img src={PlaceholderImg} alt={data[2].name} />
-                <p className="title text-left pt-1">{data[2].name}</p>
-                <p className="text-left">{data[2].description}</p>
-              </Link>
-            </div>
-          </Col>
-          <Col md="6" className="pt-3">
-            <div class="product-card">
-              <Link to="/products/neuropal">
-                <img src={PlaceholderImg} alt={data[3].name} />
-                <p className="title text-left pt-1">{data[3].name}</p>
-                <p className="text-left">{data[3].description}</p>
-              </Link>
-            </div>
-          </Col>
-        </Row>
-      </Container>
+      <Products />
     </section>
     <section className="about-us">
       <Container>
