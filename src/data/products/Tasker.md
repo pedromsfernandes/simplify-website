@@ -1,9 +1,15 @@
 ---
 name: Tasker
 path: /products/tasker/
-about: A product to optimize the use of space in a Flex Office. The product will achieve this by providing information of the occupancy of seats and meeting rooms in a office, which will make it easier for employees to access these resources and will allow the management to use the information to improve the use of these resources.
+small_description: Chatbot that wants to be a reference in the manufacturing execution systems world, aiming to significantly increase the efficiency of interacting with a MES.
+about: Tasker the chatbot that wants to be a reference in the manufacturing execution systems world. It aims to significantly increase the efficiency of interacting with a MES by creating a chatbot solution for it. This product addresses the chatbot market, in specific the market segment associated with the Manufacturing Industry from small-size to big-size companies, that offer a MES solution to their clients, that can represent any type of industry.
 
 main_image: ../../images/product.png
----In a Flex Office, employees can sit wherever they want each day. When the employees arrive at the company, they first have to find a seat, which might be difficult and even frustrating in a big company, since they don’t know beforehand which floors have available seats. Depending on the time of the day, open rooms might be mostly full which makes it even harder to find a seat. On top of this, teams can rent a meeting room and end up not using it, while others might need a meeting room and not find one.
+---
 
-To solve these problems and to provide a way for managers to analyse patterns in seating arrangements, with the objective of optimizing the use of space in the office, we propose SimplOffice.
+Manufacturing Execution systems consist of computerized systems used in manufacturing to perform countless operations during the transformation of a company's input into its desired output. It may operate across multiple function areas and it works in real-time to enable the control of multiple elements of the production process. This type of system is in fact very complex to use and can be very time-consuming for those who lack experience.
+Altogether complexity, time-consumption, and inefficiency are the key when describing the problem that our product is designed to solve.
+
+Our product by being a chatbot solution allows the end-users to easily perform their activities by communicating with our product in natural language which allows them to abstract from the MES complexity and consequently to be more productive and efficient.
+Our product consists of a chatbot solution directed to the manufacturing industry, and it is designed to be directed integrated into any MES.
+The main features of our product are, not only the possibility for a user to request information but also to perform operations over entities. It is the operation execution feature that differentiates our product from others in the market, allowing it to be seen as a personal assistant instead of a simple information repository.
