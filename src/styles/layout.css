@@ -220,7 +220,6 @@ footer a {
   .products {
     background: url(../images/products.png);
     background-size: cover;
-    background-position-y: -100px;
     top: 0;
     left: 0;
     width: 100%;
