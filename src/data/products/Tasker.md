@@ -5,6 +5,7 @@ small_description: Chatbot that wants to be a reference in the manufacturing exe
 about: Tasker the chatbot that wants to be a reference in the manufacturing execution systems world. It aims to significantly increase the efficiency of interacting with a MES by creating a chatbot solution for it. This product addresses the chatbot market, in specific the market segment associated with the Manufacturing Industry from small-size to big-size companies, that offer a MES solution to their clients, that can represent any type of industry.
 
 main_image: ../../images/product.png
+placeholder_image: ../../images/placeholder.png
 ---
 
 Manufacturing Execution systems consist of computerized systems used in manufacturing to perform countless operations during the transformation of a company's input into its desired output. It may operate across multiple function areas and it works in real-time to enable the control of multiple elements of the production process. This type of system is in fact very complex to use and can be very time-consuming for those who lack experience.

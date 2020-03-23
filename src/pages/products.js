@@ -1,5 +1,6 @@
 import React from "react"
 import { graphql, Link, useStaticQuery } from "gatsby"
+import Img from "gatsby-image"
 
 import Container from "react-bootstrap/Container"
 import { Row, Col } from "react-bootstrap"
@@ -9,16 +10,15 @@ import styles from "../styles/products.module.css"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
-import PlaceholderImg from "../images/placeholder.png"
-
 const getAllProducts = data => {
   let products = []
 
   data.allMarkdownRemark.edges.forEach(({ node }) => {
     products.push({
       name: node.frontmatter.name,
-      description: node.frontmatter.about,
+      description: node.frontmatter.small_description,
       path: node.frontmatter.path,
+      image: node.frontmatter.placeholder_image.childImageSharp.fluid,
     })
   })
 
@@ -34,7 +34,15 @@ const ProductsPage = () => {
             frontmatter {
               name
               path
-              about
+              small_description
+              placeholder_image {
+                publicURL
+                childImageSharp {
+                  fluid {
+                    ...GatsbyImageSharpFluid
+                  }
+                }
+              }
             }
           }
         }
@@ -55,18 +63,18 @@ const ProductsPage = () => {
               <Col md="6" className="pt-3">
                 <div class="product-card">
                   <Link to={products[0].path}>
-                    <img src={PlaceholderImg} alt={products[0].name} />
+                    <Img fluid={products[0].image} alt={products[0].name} />
                     <p className="title text-left pt-1">{products[0].name}</p>
-                    <p className="text-justify">{products[0].description}</p>
+                    <p className="text-left">{products[0].description}</p>
                   </Link>
                 </div>
               </Col>
               <Col md="6" className="pt-3">
                 <div class="product-card">
                   <Link to={products[1].path}>
-                    <img src={PlaceholderImg} alt={products[1].name} />
+                    <Img fluid={products[1].image} alt={products[0].name} />
                     <p className="title text-left pt-1">{products[1].name}</p>
-                    <p className="text-justify">{products[1].description}</p>
+                    <p className="text-left">{products[1].description}</p>
                   </Link>
                 </div>
               </Col>
@@ -75,18 +83,18 @@ const ProductsPage = () => {
               <Col md="6" className="pt-3">
                 <div class="product-card">
                   <Link to={products[2].path}>
-                    <img src={PlaceholderImg} alt={products[2].name} />
+                    <Img fluid={products[2].image} alt={products[0].name} />
                     <p className="title text-left pt-1">{products[2].name}</p>
-                    <p className="text-justify">{products[2].description}</p>
+                    <p className="text-left">{products[2].description}</p>
                   </Link>
                 </div>
               </Col>
               <Col md="6" className="pt-3">
                 <div class="product-card">
                   <Link to={products[3].path}>
-                    <img src={PlaceholderImg} alt={products[3].name} />
+                    <Img fluid={products[3].image} alt={products[0].name} />
                     <p className="title text-left pt-1">{products[3].name}</p>
-                    <p className="text-justify">{products[3].description}</p>
+                    <p className="text-left">{products[3].description}</p>
                   </Link>
                 </div>
               </Col>
