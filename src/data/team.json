@@ -3,7 +3,7 @@
     "name": "André Ramada",
     "course": "Multimedia Masters",
     "role": "CEO",
-    "img": "../images/team/default.png"
+    "img": "../images/team/andre_ramada.jpg"
   },
   {
     "name": "João Barquinha",
@@ -27,13 +27,13 @@
     "name": "Ana Almeida",
     "course": "Multimedia Masters",
     "role": "",
-    "img": "../images/team/default.png"
+    "img": "../images/team/ana_almeida.png"
   },
   {
     "name": "Flávia Fogliato",
     "course": "Multimedia Masters",
     "role": "",
-    "img": "../images/team/default.png"
+    "img": "../images/team/flavia_fogliato.jpg"
   },
   {
     "name": "Isabella Silva",
@@ -45,25 +45,25 @@
     "name": "Karina Pedreira",
     "course": "Multimedia Masters",
     "role": "",
-    "img": "../images/team/default.png"
+    "img": "../images/team/karina_pedreira.jpg"
   },
   {
     "name": "Leonor Cónego",
     "course": "Multimedia Masters",
     "role": "",
-    "img": "../images/team/default.png"
+    "img": "../images/team/leonor_conego.png"
   },
   {
     "name": "Luana Barros",
     "course": "Multimedia Masters",
     "role": "",
-    "img": "../images/team/default.png"
+    "img": "../images/team/Luana_Barros.jpg"
   },
   {
     "name": "Ruben Amado",
     "course": "Multimedia Masters",
     "role": "",
-    "img": "../images/team/default.png"
+    "img": "../images/team/ruben_amado.jpg"
   },
   {
     "name": "Hugo Ferreira",
@@ -80,6 +80,18 @@
   {
     "name": "Marcelo Sousa",
     "course": "Services Masters",
+    "role": "",
+    "img": "../images/team/marcelo_sousa.jpeg"
+  },
+  {
+    "name": "Joel Taipa",
+    "course": "Multimedia Masters",
+    "role": "",
+    "img": "../images/team/default.png"
+  },
+  {
+    "name": "Marcelo Castilha",
+    "course": "Multimedia Masters",
     "role": "",
     "img": "../images/team/Marcelo Castilha.jpg"
   },
@@ -117,7 +129,7 @@
     "name": "António Costa",
     "course": "Informatics Masters",
     "role": "",
-    "img": "../images/team/default.png"
+    "img": "../images/team/antonio_costa.jpg"
   },
   {
     "name": "Cláudio Lemos",
@@ -129,7 +141,7 @@
     "name": "Dinis Moreira",
     "course": "Informatics Masters",
     "role": "",
-    "img": "../images/team/default.png"
+    "img": "../images/team/dinis_moreira.jpg"
   },
   {
     "name": "Diogo Yaguas",
@@ -141,7 +153,7 @@
     "name": "Diogo Moreira",
     "course": "Informatics Masters",
     "role": "",
-    "img": "../images/team/default.png"
+    "img": "../images/team/diogo_moreira.jpg"
   },
   {
     "name": "Duarte Frazão",
@@ -153,7 +165,7 @@
     "name": "Eduardo Silva",
     "course": "Informatics Masters",
     "role": "",
-    "img": "../images/team/default.png"
+    "img": "../images/team/eduardo_silva.jpg"
   },
   {
     "name": "Elgner Ramos",
@@ -165,7 +177,7 @@
     "name": "Fábio Azevedo",
     "course": "Informatics Masters",
     "role": "",
-    "img": "../images/team/default.png"
+    "img": "../images/team/fabio_azevedo.jpg"
   },
   {
     "name": "Fábio Oliveira",
@@ -201,13 +213,13 @@
     "name": "Henrique Rodrigues",
     "course": "Informatics Masters",
     "role": "",
-    "img": "../images/team/default.png"
+    "img": "../images/team/henrique_sendim.jpg"
   },
   {
     "name": "João Amaral",
     "course": "Informatics Masters",
     "role": "",
-    "img": "../images/team/default.png"
+    "img": "../images/team/joao_amaral.jpg"
   },
   {
     "name": "João Moura",
@@ -222,10 +234,10 @@
     "img": "../images/team/marcia_meira.jpg"
   },
   {
-    "name": "Maria Soares",
+    "name": "Carolina Soares",
     "course": "Informatics Masters",
     "role": "",
-    "img": "../images/team/default.png"
+    "img": "../images/team/carolina_soares.jpg"
   },
   {
     "name": "Helena Montenegro",
@@ -243,7 +255,7 @@
     "name": "Pedro Silva",
     "course": "Informatics Masters",
     "role": "",
-    "img": "../images/team/default.png"
+    "img": "../images/team/pedro_silva.png"
   },
   {
     "name": "Pedro Costa",
@@ -255,13 +267,13 @@
     "name": "Ricardo Teixeira",
     "course": "Informatics Masters",
     "role": "",
-    "img": "../images/team/default.png"
+    "img": "../images/team/ricardo_teixeira.jpg"
   },
   {
     "name": "Ricardo Moura",
     "course": "Informatics Masters",
     "role": "",
-    "img": "../images/team/default.png"
+    "img": "../images/team/ricardo_moura.jpg"
   },
   {
     "name": "Rui Guedes",

@@ -11,7 +11,11 @@ const Footer = () => (
             Interested in <br /> working together?
           </h1>
           <p>
-            <a href="mailto:general@simplify-lgp.tech" target="_blank">
+            <a
+              href="mailto:general@simplify-lgp.tech"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               general@simplify-lgp.tech
             </a>
             &nbsp;

@@ -1,18 +1,28 @@
 ---
 name: NeuroPal
 path: /products/neuropal/
-small_description: Seats by Simplify, a product to optimize the use of space in a Flex Office.
-about: A product to optimize the use of space in a Flex Office. The product will achieve this by providing information of the occupancy of seats and meeting rooms in a office, which will make it easier for employees to access these resources and will allow the management to use the information to improve the use of these resources.
+small_description: A mobile game to help prevent spinal cord injuries. The player must avoid a series of possible risky scenarios and take the right actions to prevent an injury.
+about: The player must avoid a series of possible risky scenarios and take the right actions to prevent a spinal cord injury. During each level, the user will be able to answer theoretical questions about the Center Nervous System and collect different objects to trade in for Nervous System components to build the user’s game companion.
 
-main_image: ../../images/product.png
-placeholder_image: ../../images/placeholder.png
+main_image: ../../images/products/neuro-produto.png
+showcase_image: ../../images/products/neuro.png
 
 carousel:
-  - image: ../../images/carousel.png
-  - image: ../../images/carousel.png
-  - image: ../../images/carousel.png
+  - image: ../../images/products/neuropal_fundo_Página_5.jpg
+  - image: ../../images/products/neuropal_fundo_Página_4.jpg
+  - image: ../../images/products/neuropal_fundo_Página_3.jpg
+  - image: ../../images/products/neuropal_fundo_Página_2.jpg
+  - image: ../../images/products/neuropal_fundo_Página_1.jpg
+  - image: ../../images/products/neurop-cliff.png
+  - image: ../../images/products/neurop-dino.png
+  - image: ../../images/products/neurop-front.png
+  - image: ../../images/products/neurop-street.png
 ---
 
-In a Flex Office, employees can sit wherever they want each day. When the employees arrive at the company, they first have to find a seat, which might be difficult and even frustrating in a big company, since they don’t know beforehand which floors have available seats. Depending on the time of the day, open rooms might be mostly full which makes it even harder to find a seat. On top of this, teams can rent a meeting room and end up not using it, while others might need a meeting room and not find one.
+A mobile game to help prevent spinal cord injuries. While playing NeuroPal, the user is walked through a series of possible risky scenarios and must take the right actions to help prevent a spinal cord injury to not lose a life and process in the game. During each level, the user will be able to answer theoretical questions about the Center Nervous System and collect different objects to trade in for Nervous System components to build and turn functional the user’s game companion.
 
-To solve these problems and to provide a way for managers to analyse patterns in seating arrangements, with the objective of optimizing the use of space in the office, we propose SimplOffice.
+Spinal cord injuries are most common in young males due to the most frequent practice of dangerous activities, and these individuals should be made aware of these risky situations from an early age. However, there are spinal cord injuries in all ages, so NeuroPal is a game targeted to all generations, playable by both the grandchildren and the grandparents.
+
+At the moment, spinal cord injuries are untreatable and, depending on their severity, can cause permanent loss of muscle function, sensation and automation function in several parts of the body, resulting in big life changes for a lot of people. Due to this, NeuroPal is important and crucial to reduce the number of injuries by teaching its players how to be safe.
+
+NeuroPal will offer different ways of user interaction, an engaging narrative, education content in three languages and simple and pleasing graphics. NeuroPal will be developed with the game engine, Unity.
