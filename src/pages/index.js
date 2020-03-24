@@ -62,7 +62,7 @@ const IndexPage = () => (
               Simplify is a multidisciplinary creative company at the
               intersection of multimedia, design and technology. Born from a
               masters discipline from the University of Porto called Project
-              Management Laboratory, Simplify currently have 46 collaborators
+              Management Laboratory, Simplify currently have 48 collaborators
               and 4 products.
             </p>
           </Col>

@@ -81,6 +81,18 @@
     "name": "Marcelo Sousa",
     "course": "Services Masters",
     "role": "",
+    "img": "../images/team/default.png"
+  },
+  {
+    "name": "Joel Taipa",
+    "course": "Multimedia Masters",
+    "role": "",
+    "img": "../images/team/default.png"
+  },
+  {
+    "name": "Marcelo Castilha",
+    "course": "Multimedia Masters",
+    "role": "",
     "img": "../images/team/Marcelo Castilha.jpg"
   },
   {
