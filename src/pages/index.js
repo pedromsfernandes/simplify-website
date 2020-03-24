@@ -7,9 +7,16 @@ import Col from "react-bootstrap/Col"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
-import HeroArt from "../images/hero-art.png"
-import PlaceholderImg from "../images/placeholder.png"
-import VacImg from "../images/vac1.png"
+import Overall from "../components/products/Overall"
+
+import Astronauts from "../images/astronauts.png"
+import Feup from "../images/feup.png"
+import ArrowRight from "../images/svg/arrow-right.svg"
+
+import Vac from "../images/clients/vac.png"
+import CriticalManufacturing from "../images/clients/critical-manufacturing.jpg"
+import Natixis from "../images/clients/natixis.png"
+import Inova from "../images/clients/inova.png"
 
 const IndexPage = () => (
   <Layout>
@@ -17,7 +24,7 @@ const IndexPage = () => (
     <section className="hero">
       <Container>
         <Row>
-          <Col>
+          <Col xs={12} lg={8}>
             <h1>
               Simplify your
               <br />
@@ -31,87 +38,68 @@ const IndexPage = () => (
               using technology and multimedia.
             </p>
           </Col>
-          <Col xs={4}>
-            <img className="hero-art" src={HeroArt} alt="" />
+          <Col xs={12} lg={4}>
+            <div className="hero-art"></div>
           </Col>
         </Row>
       </Container>
     </section>
     <section className="products">
       <Container>
-        <h1>Our Products</h1>
-        <Row>
-          <Col>
-            <div class="product-card">
-              <img src={PlaceholderImg} alt="" />
-              <p className="title">Name of the product</p>
-              <p>Description of the product</p>
-            </div>
-          </Col>
-          <Col>
-            <div class="product-card">
-              <img src={PlaceholderImg} alt="" />
-              <p className="title">Name of the product</p>
-              <p>Description of the product</p>
-            </div>
-          </Col>
-        </Row>
-        <Row>
-          <Col>
-            <div class="product-card">
-              <img src={PlaceholderImg} alt="" />
-              <p className="title">Name of the product</p>
-              <p>Description of the product</p>
-            </div>
-          </Col>
-          <Col>
-            <div class="product-card">
-              <img src={PlaceholderImg} alt="" />
-              <p className="title">Name of the product</p>
-              <p>Description of the product</p>
-            </div>
-          </Col>
-        </Row>
+        <h1 className="main-title text-center pt-5">Our Products</h1>
+        <Overall />
       </Container>
     </section>
     <section className="about-us">
       <Container>
-        <h1>About the company</h1>
-        <p>
-          Simplify is a multidisciplinary creative company at the intersection
-          of multimidia, design and technology. Born from a masters disicpline
-          from the University of Porto called Project Management Laboratory,
-          Simplify currently have x collaborators and x active projects.
-        </p>
-        <h3>Our clients</h3>
         <Row>
-          <Col>
-            <img src={VacImg} alt="" />
+          <Col md={6}>
+            <img src={Feup} alt="" />
           </Col>
           <Col>
-            <img src={VacImg} alt="" />
-          </Col>
-          <Col>
-            <img src={VacImg} alt="" />
-          </Col>
-          <Col>
-            <img src={VacImg} alt="" />
+            <h1>About the company</h1>
+            <p>
+              Simplify is a multidisciplinary creative company at the
+              intersection of multimedia, design and technology. Born from a
+              masters discipline from the University of Porto called Project
+              Management Laboratory, Simplify currently have 46 collaborators
+              and 4 products.
+            </p>
           </Col>
         </Row>
+        <div className="clients">
+          <h3>Our clients</h3>
+          <Row>
+            <Col xs={12} lg={3}>
+              <img src={Vac} alt="" />
+            </Col>
+            <Col xs={12} lg={3}>
+              <img src={CriticalManufacturing} alt="" />
+            </Col>
+            <Col xs={12} lg={3}>
+              <img src={Inova} alt="" />
+            </Col>
+            <Col xs={12} lg={3}>
+              <img src={Natixis} alt="" />
+            </Col>
+          </Row>
+        </div>
       </Container>
     </section>
     <section className="principles">
       <Container>
         <Row>
           <Col>
-            <h1>Our Core Principles</h1>
+            <h1>Our core Principles</h1>
           </Col>
-          <Col>
-            <h4>Our vision is</h4>
+          <Col lg={{ span: 3 }}>
+            <div className="number">01</div>
+            <h3>Our vision is</h3>
             <p>To make information more easily accessible.</p>
           </Col>
-          <Col>
-            <h4>Our mission is</h4>
+          <Col lg={{ span: 3, offset: 1 }}>
+            <div className="number">02</div>
+            <h3>Our mission is</h3>
             <p>
               To help remove the burden of everyday tasks and promote a better
               understanding on unapparent topics.
@@ -122,15 +110,26 @@ const IndexPage = () => (
     </section>
     <section className="about-team">
       <Container>
-        <h1>About Our Team</h1>
-        <p>
-          Simplify team is multidisciplinary, composed by students from the
-          Multimedia masters, x master and y masters from the University of
-          Porto in Portugal.
-        </p>
-        <p>
-          <Link to="/team">Meet our team</Link>
-        </p>
+        <Row>
+          <Col md={6}>
+            <img src={Astronauts} alt="" />
+          </Col>
+          <Col>
+            <h1>
+              About <br /> our team
+            </h1>
+            <p>
+              Simplify team is multidisciplinary, composed by students from the
+              Multimedia Masters, Infomatics Masters and Services Masters from
+              the University of Porto in Portugal.
+            </p>
+            <p>
+              <Link to="/team">
+                Meet our team members <ArrowRight className="arrow-right" />
+              </Link>
+            </p>
+          </Col>
+        </Row>
       </Container>
     </section>
   </Layout>
