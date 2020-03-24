@@ -37,17 +37,12 @@ section,
 footer {
   padding: 4rem 0;
 }
-footer {
-  background-color: var(--blue);
+
+.icon-credit {
+  background-color: var(--light-blue);
+  padding: 0.4rem 0;
 }
 
-/**
-  Add custom CSS here
-*/
-section,
-footer {
-  padding: 4rem 0;
-}
 .page-not-found h1 {
   font-size: 300px;
   color: var(--yellow);
@@ -75,33 +70,36 @@ footer {
   border-color: var(--darker-blue);
 }
 
-h1 {
+section h1 {
   font-weight: 600;
-  margin-bottom: 4rem;
+  margin-bottom: 2rem;
+}
+
+footer h1 {
+  font-size: 4rem;
+  text-decoration: underline;
+  margin-bottom: 2.5rem;
+}
+
+footer p {
+  font-size: 1.25rem;
+}
+
+footer a {
+  margin-right: 2rem;
 }
 
 .hero h1 {
-  font-size: 4rem;
+  font-size: 5.2rem;
+  margin-bottom: 0;
 }
 
 .hero p {
   max-width: 35rem;
 }
 
-.hero-art {
-  max-width: 100%;
-}
-
-.products {
-  background-color: var(--dark-blue);
-}
-
-.products h1 {
-  text-align: center;
-}
-
 .product-card {
-  margin-bottom: 6rem;
+  margin-bottom: 4rem;
 }
 
 .product-card .title {
@@ -127,9 +125,40 @@ h1 {
   font-size: 72px;
 }
 
+.clients h3 {
+  margin-top: 4rem;
+}
+
+.clients img {
+  filter: saturate(0);
+  display: block;
+  margin: 0 auto;
+  opacity: 0.35;
+  padding: 1rem auto;
+  max-width: 100%;
+  max-height: 5rem;
+}
+
 .about-us,
 .about-team {
   background-color: var(--darker-blue);
+}
+
+.about-team img,
+.about-us img {
+  max-width: 100%;
+}
+
+.about-team a {
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  text-decoration: underline;
+  text-decoration-color: var(--white);
+}
+
+.arrow-right {
+  fill: var(--yellow);
+  margin-left: 0.5rem;
 }
 
 .about-us h3 {
@@ -137,7 +166,93 @@ h1 {
   margin-bottom: 2rem;
 }
 
+.principles h1 {
+  font-size: 3.6rem;
+}
+
+.principles h3 {
+  font-weight: bold;
+  margin: 1.5rem 0 1rem 0;
+}
+
+.principles .number {
+  font-size: 0.8rem;
+  font-weight: bold;
+  padding-bottom: 0.4rem;
+  border-bottom: 2px solid var(--yellow);
+}
+
+@media (min-width: 768px) {
+  .products {
+    background: url(../images/products.png);
+    background-size: cover;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    padding: 0 0 5rem 0;
+  }
+
+  .about-us h1,
+  .about-team h1 {
+    position: relative;
+    left: -5.5rem;
+    margin-top: 12rem;
+    margin-bottom: 1rem;
+    font-size: 4rem;
+  }
+
+  .hero-art {
+    background: url(../images/hero-art-full.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    transform: rotate(290deg);
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+  }
+}
+
 @media (max-width: 768px) {
+  .hero h1 {
+    font-size: 3rem;
+  }
+
+  .hero-art {
+    background: url(../images/hero-art-full.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    min-height: 30rem;
+    z-index: -1;
+  }
+
+  .about-us h1,
+  .about-team h1 {
+    position: relative;
+    top: -3.5rem;
+    font-size: 4rem;
+  }
+
+  .products {
+    background: url(../images/products.png);
+    background-size: cover;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    padding: 0 0 5rem 0;
+  }
+
+  .main-title {
+    font-weight: bold;
+    font-size: 40px;
+    margin-bottom: 0;
+  }
+
   .page-not-found h1 {
     font-size: 60px;
     color: var(--yellow);
