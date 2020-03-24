@@ -1,0 +1,97 @@
+.subscribe {
+  background-color: var(--dark-blue);
+  padding: 2rem 5rem;
+  text-align: center;
+}
+
+.h3 {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.subscribe .h3 {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.backArrow span {
+  text-decoration: underline;
+  text-transform: uppercase;
+  font-size: 0.9rem;
+  font-weight: bold;
+  margin-left: 1.5rem;
+}
+
+.h1 {
+  font-size: 4rem;
+  font-weight: bold;
+  position: absolute;
+  z-index: 2;
+  top: -4.5rem;
+  left: -15%;
+}
+
+.about {
+  font-size: 1.1rem;
+}
+
+.aboutWrapper {
+  position: relative;
+}
+
+@media (min-width: 768px) {
+  .carouselContainer {
+    width: 900px !important;
+    margin-bottom: 4rem;
+  }
+
+  .subscribeContainer {
+    width: 900px !important;
+  }
+
+  .form {
+    margin: 0 5rem;
+  }
+
+  .info {
+    margin: 0 auto;
+    width: 50%;
+  }
+
+  .image {
+    width: 635px;
+    height: 600px;
+  }
+
+  .aboutContainer {
+    margin-bottom: 4rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .btn {
+    width: 100%;
+  }
+
+  .subscribe {
+    padding: 2rem 0 3rem 0;
+  }
+
+  .h1 {
+    top: -2.5rem;
+    left: 0rem;
+  }
+
+  .about {
+    padding-top: 3rem;
+  }
+
+  .aboutContainer {
+    margin-top: 1rem;
+  }
+
+  .carouselContainer {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+}
