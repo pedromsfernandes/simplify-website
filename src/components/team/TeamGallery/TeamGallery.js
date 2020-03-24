@@ -1,4 +1,4 @@
-import React, { useState } from "react"
+import React from "react"
 import { useStaticQuery, graphql } from "gatsby"
 import Container from "react-bootstrap/Container"
 import Row from "react-bootstrap/Row"
@@ -30,7 +30,7 @@ const TeamGallery = () => {
     <Container className="pb-5">
       <Row>
         {data.allTeamJson.nodes.map(member => (
-          <Col style={{ padding: "5px" }}>
+          <Col style={{ padding: "5px" }} key={member.name}>
             <MemberImage
               name={member.name}
               image={member.img}

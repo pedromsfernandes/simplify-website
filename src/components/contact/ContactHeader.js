@@ -11,6 +11,7 @@ const ContactHeader = () => (
         <a
           href="mailto:general@simplify-lgp.tech"
           target="_blank"
+          rel="noopener noreferrer"
           className={styles.info}
         >
           general@simplify-lgp.tech
