@@ -1,0 +1,17 @@
+.memberImage {
+  margin-bottom: 2em;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.memberInfo {
+  text-align: center;
+}
+
+.memberCourse {
+  font-weight: 700;
+  font-size: small;
+}
