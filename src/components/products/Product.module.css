@@ -14,6 +14,10 @@
   margin-bottom: 2rem;
 }
 
+.carouselItem {
+  max-height: 30rem;
+}
+
 .backArrow span {
   text-decoration: underline;
   text-transform: uppercase;
@@ -93,5 +97,9 @@
   .carouselContainer {
     margin-top: 2rem;
     margin-bottom: 2rem;
+  }
+
+  .carouselItem {
+    height: 12rem;
   }
 }

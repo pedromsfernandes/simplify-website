@@ -13,6 +13,10 @@ carousel:
   - image: ../../images/products/neuropal_fundo_Página_3.jpg
   - image: ../../images/products/neuropal_fundo_Página_2.jpg
   - image: ../../images/products/neuropal_fundo_Página_1.jpg
+  - image: ../../images/products/neurop-cliff.png
+  - image: ../../images/products/neurop-dino.png
+  - image: ../../images/products/neurop-front.png
+  - image: ../../images/products/neurop-street.png
 ---
 
 A mobile game to help prevent spinal cord injuries. While playing NeuroPal, the user is walked through a series of possible risky scenarios and must take the right actions to help prevent a spinal cord injury to not lose a life and process in the game. During each level, the user will be able to answer theoretical questions about the Center Nervous System and collect different objects to trade in for Nervous System components to build and turn functional the user’s game companion.

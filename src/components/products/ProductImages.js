@@ -9,7 +9,7 @@ const ProductImages = ({ images }) =>
     <Container className={styles.carouselContainer}>
       <Carousel className={styles.carousel}>
         {images.map(({ image }, i) => (
-          <Carousel.Item key={i}>
+          <Carousel.Item key={i} className={styles.carouselItem}>
             <Img
               className="d-block w-100"
               fluid={image.childImageSharp.fluid}
