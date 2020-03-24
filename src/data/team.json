@@ -1,7 +1,278 @@
 [
   {
     "name": "André Ramada",
-    "course": "Masters in Multimedia",
-    "role": "Chief Executive Officer"
+    "course": "Multimedia Masters",
+    "role": "CEO",
+    "img": "../images/team/default.png"
+  },
+  {
+    "name": "João Barquinha",
+    "course": "Services Masters",
+    "role": "CBO",
+    "img": "../images/team/joão_barquinha.jpg"
+  },
+  {
+    "name": "Aisha Animashaun",
+    "course": "Multimedia Masters",
+    "role": "CMO",
+    "img": "../images/team/aisha_animashaun.jpg"
+  },
+  {
+    "name": "Pedro Fernandes",
+    "course": "Informatics Masters",
+    "role": "CTO",
+    "img": "../images/team/pedro_fernandes.jpeg"
+  },
+  {
+    "name": "Ana Almeida",
+    "course": "Multimedia Masters",
+    "role": "",
+    "img": "../images/team/default.png"
+  },
+  {
+    "name": "Flávia Fogliato",
+    "course": "Multimedia Masters",
+    "role": "",
+    "img": "../images/team/default.png"
+  },
+  {
+    "name": "Isabella Silva",
+    "course": "Multimedia Masters",
+    "role": "",
+    "img": "../images/team/isabella_barbosa.png"
+  },
+  {
+    "name": "Karina Pedreira",
+    "course": "Multimedia Masters",
+    "role": "",
+    "img": "../images/team/default.png"
+  },
+  {
+    "name": "Leonor Cónego",
+    "course": "Multimedia Masters",
+    "role": "",
+    "img": "../images/team/default.png"
+  },
+  {
+    "name": "Luana Barros",
+    "course": "Multimedia Masters",
+    "role": "",
+    "img": "../images/team/default.png"
+  },
+  {
+    "name": "Ruben Amado",
+    "course": "Multimedia Masters",
+    "role": "",
+    "img": "../images/team/default.png"
+  },
+  {
+    "name": "Hugo Ferreira",
+    "course": "Multimedia Masters",
+    "role": "",
+    "img": "../images/team/default.png"
+  },
+  {
+    "name": "Filipa Prisco",
+    "course": "Services Masters",
+    "role": "",
+    "img": "../images/team/Filipa Prisco.jpg"
+  },
+  {
+    "name": "Marcelo Sousa",
+    "course": "Services Masters",
+    "role": "",
+    "img": "../images/team/Marcelo Castilha.jpg"
+  },
+  {
+    "name": "Margarida Vasques",
+    "course": "Services Masters",
+    "role": "",
+    "img": "../images/team/default.png"
+  },
+  {
+    "name": "Alexandra Mendes",
+    "course": "Informatics Masters",
+    "role": "",
+    "img": "../images/team/alexandra_mendes.jpg"
+  },
+  {
+    "name": "Álvaro Miranda",
+    "course": "Informatics Masters",
+    "role": "",
+    "img": "../images/team/default.png"
+  },
+  {
+    "name": "Ana Pinto",
+    "course": "Informatics Masters",
+    "role": "",
+    "img": "../images/team/rita_norinho.png"
+  },
+  {
+    "name": "Ana Silva",
+    "course": "Informatics Masters",
+    "role": "",
+    "img": "../images/team/Ana Sá Silva.jpg"
+  },
+  {
+    "name": "António Costa",
+    "course": "Informatics Masters",
+    "role": "",
+    "img": "../images/team/default.png"
+  },
+  {
+    "name": "Cláudio Lemos",
+    "course": "Informatics Masters",
+    "role": "",
+    "img": "../images/team/claudio_lemos.jpg"
+  },
+  {
+    "name": "Dinis Moreira",
+    "course": "Informatics Masters",
+    "role": "",
+    "img": "../images/team/default.png"
+  },
+  {
+    "name": "Diogo Yaguas",
+    "course": "Informatics Masters",
+    "role": "",
+    "img": "../images/team/yaguas.png"
+  },
+  {
+    "name": "Diogo Moreira",
+    "course": "Informatics Masters",
+    "role": "",
+    "img": "../images/team/default.png"
+  },
+  {
+    "name": "Duarte Frazão",
+    "course": "Informatics Masters",
+    "role": "",
+    "img": "../images/team/duarte_frazão.JPG"
+  },
+  {
+    "name": "Eduardo Silva",
+    "course": "Informatics Masters",
+    "role": "",
+    "img": "../images/team/default.png"
+  },
+  {
+    "name": "Elgner Ramos",
+    "course": "Informatics Masters",
+    "role": "",
+    "img": "../images/team/elgner_ramos.jpg"
+  },
+  {
+    "name": "Fábio Azevedo",
+    "course": "Informatics Masters",
+    "role": "",
+    "img": "../images/team/default.png"
+  },
+  {
+    "name": "Fábio Oliveira",
+    "course": "Informatics Masters",
+    "role": "",
+    "img": "../images/team/fabio_oliveira.jpg"
+  },
+  {
+    "name": "Francisco Almeida",
+    "course": "Informatics Masters",
+    "role": "",
+    "img": "../images/team/francisco_almeida.png"
+  },
+  {
+    "name": "Gonçalo Bernardo",
+    "course": "Informatics Masters",
+    "role": "",
+    "img": "../images/team/gonçalo_bernardo.JPG"
+  },
+  {
+    "name": "Guilherme Amaro",
+    "course": "Informatics Masters",
+    "role": "",
+    "img": "../images/team/default.png"
+  },
+  {
+    "name": "Guilherme Martins",
+    "course": "Informatics Masters",
+    "role": "",
+    "img": "../images/team/guilherme_vale.jpg"
+  },
+  {
+    "name": "Henrique Rodrigues",
+    "course": "Informatics Masters",
+    "role": "",
+    "img": "../images/team/default.png"
+  },
+  {
+    "name": "João Amaral",
+    "course": "Informatics Masters",
+    "role": "",
+    "img": "../images/team/default.png"
+  },
+  {
+    "name": "João Moura",
+    "course": "Informatics Masters",
+    "role": "",
+    "img": "../images/team/default.png"
+  },
+  {
+    "name": "Márcia Meira",
+    "course": "Informatics Masters",
+    "role": "",
+    "img": "../images/team/marcia_meira.jpg"
+  },
+  {
+    "name": "Maria Soares",
+    "course": "Informatics Masters",
+    "role": "",
+    "img": "../images/team/default.png"
+  },
+  {
+    "name": "Helena Montenegro",
+    "course": "Informatics Masters",
+    "role": "",
+    "img": "../images/team/helena_montenegro.jpg"
+  },
+  {
+    "name": "Mariana Aguiar",
+    "course": "Informatics Masters",
+    "role": "",
+    "img": "../images/team/mariana aguiar profile.jpg"
+  },
+  {
+    "name": "Pedro Silva",
+    "course": "Informatics Masters",
+    "role": "",
+    "img": "../images/team/default.png"
+  },
+  {
+    "name": "Pedro Costa",
+    "course": "Informatics Masters",
+    "role": "",
+    "img": "../images/team/pedro_costa.jpg"
+  },
+  {
+    "name": "Ricardo Teixeira",
+    "course": "Informatics Masters",
+    "role": "",
+    "img": "../images/team/default.png"
+  },
+  {
+    "name": "Ricardo Moura",
+    "course": "Informatics Masters",
+    "role": "",
+    "img": "../images/team/default.png"
+  },
+  {
+    "name": "Rui Guedes",
+    "course": "Informatics Masters",
+    "role": "",
+    "img": "../images/team/rui_guedes.jpg"
+  },
+  {
+    "name": "Tiago Fragoso",
+    "course": "Informatics Masters",
+    "role": "",
+    "img": "../images/team/tiago_fragoso.jpg"
   }
 ]
