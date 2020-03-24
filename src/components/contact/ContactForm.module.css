@@ -1,0 +1,9 @@
+.label {
+  font-weight: bold;
+}
+
+@media (max-width: 768px) {
+  .form {
+    margin-bottom: 5rem;
+  }
+}
