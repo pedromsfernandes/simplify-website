@@ -12,7 +12,7 @@ const getAllProducts = data => {
       name: node.frontmatter.name,
       description: node.frontmatter.small_description,
       path: node.frontmatter.path,
-      image: node.frontmatter.placeholder_image.childImageSharp.fluid,
+      image: node.frontmatter.showcase_image.childImageSharp.fluid,
     })
   })
 
@@ -29,7 +29,7 @@ const OverallProducts = () => {
               name
               path
               small_description
-              placeholder_image {
+              showcase_image {
                 publicURL
                 childImageSharp {
                   fluid {

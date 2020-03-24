@@ -4,13 +4,15 @@ path: /products/neuropal/
 small_description: Seats by Simplify, a product to optimize the use of space in a Flex Office.
 about: A product to optimize the use of space in a Flex Office. The product will achieve this by providing information of the occupancy of seats and meeting rooms in a office, which will make it easier for employees to access these resources and will allow the management to use the information to improve the use of these resources.
 
-main_image: ../../images/product.png
-placeholder_image: ../../images/placeholder.png
+main_image: ../../images/products/neuro-produto.png
+showcase_image: ../../images/products/neuro.png
 
 carousel:
-  - image: ../../images/carousel.png
-  - image: ../../images/carousel.png
-  - image: ../../images/carousel.png
+  - image: ../../images/products/neuropal_fundo_Página_5.jpg
+  - image: ../../images/products/neuropal_fundo_Página_4.jpg
+  - image: ../../images/products/neuropal_fundo_Página_3.jpg
+  - image: ../../images/products/neuropal_fundo_Página_2.jpg
+  - image: ../../images/products/neuropal_fundo_Página_1.jpg
 ---
 
 In a Flex Office, employees can sit wherever they want each day. When the employees arrive at the company, they first have to find a seat, which might be difficult and even frustrating in a big company, since they don’t know beforehand which floors have available seats. Depending on the time of the day, open rooms might be mostly full which makes it even harder to find a seat. On top of this, teams can rent a meeting room and end up not using it, while others might need a meeting room and not find one.
