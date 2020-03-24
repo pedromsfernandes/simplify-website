@@ -3,7 +3,7 @@
     "name": "André Ramada",
     "course": "Multimedia Masters",
     "role": "CEO",
-    "img": "../images/team/default.png"
+    "img": "../images/team/andre_ramada.jpg"
   },
   {
     "name": "João Barquinha",
@@ -33,7 +33,7 @@
     "name": "Flávia Fogliato",
     "course": "Multimedia Masters",
     "role": "",
-    "img": "../images/team/default.png"
+    "img": "../images/team/flavia_fogliato.jpg"
   },
   {
     "name": "Isabella Silva",
@@ -57,7 +57,7 @@
     "name": "Luana Barros",
     "course": "Multimedia Masters",
     "role": "",
-    "img": "../images/team/default.png"
+    "img": "../images/team/Luana_Barros.jpg"
   },
   {
     "name": "Ruben Amado",
@@ -141,7 +141,7 @@
     "name": "Diogo Moreira",
     "course": "Informatics Masters",
     "role": "",
-    "img": "../images/team/default.png"
+    "img": "../images/team/diogo_moreira.jpg"
   },
   {
     "name": "Duarte Frazão",
@@ -165,7 +165,7 @@
     "name": "Fábio Azevedo",
     "course": "Informatics Masters",
     "role": "",
-    "img": "../images/team/default.png"
+    "img": "../images/team/fabio_azevedo.jpg"
   },
   {
     "name": "Fábio Oliveira",
@@ -201,7 +201,7 @@
     "name": "Henrique Rodrigues",
     "course": "Informatics Masters",
     "role": "",
-    "img": "../images/team/default.png"
+    "img": "../images/team/henrique_sendim.jpg"
   },
   {
     "name": "João Amaral",
@@ -222,10 +222,10 @@
     "img": "../images/team/marcia_meira.jpg"
   },
   {
-    "name": "Maria Soares",
+    "name": "Carolina Soares",
     "course": "Informatics Masters",
     "role": "",
-    "img": "../images/team/default.png"
+    "img": "../images/team/carolina_soares.jpg"
   },
   {
     "name": "Helena Montenegro",
@@ -243,7 +243,7 @@
     "name": "Pedro Silva",
     "course": "Informatics Masters",
     "role": "",
-    "img": "../images/team/default.png"
+    "img": "../images/team/pedro_silva.png"
   },
   {
     "name": "Pedro Costa",
