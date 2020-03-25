@@ -1,7 +1,8 @@
 .input {
   border-radius: 8px;
   border-width: 3px;
-  padding: 1.5rem 1rem;
+  padding: 0 1rem;
+  height: calc(1.5em + 2rem + 2px);
 }
 
 .input.textarea {
