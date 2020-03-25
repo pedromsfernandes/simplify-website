@@ -7,15 +7,29 @@ const encode = (data) =>
     .map((key) => encodeURIComponent(key) + "=" + encodeURIComponent(data[key]))
     .join("&")
 
-const ContactForm = () => {
+const FeedbackForm = () => {
   const [team, setTeam] = useState("team-a")
+  const [confirmation, setConfirmation] = useState("")
+  const [confirmationError, setConfirmationError] = useState(false)
   const [message, setMessage] = useState("")
   const [success, setSuccess] = useState(null)
   const [loading, setLoading] = useState(false)
 
   const handleSubmit = (e) => {
     e.preventDefault()
+
+    if (
+      confirmation.toLowerCase() !==
+      process.env.GATSBY_CONFIRMATION_KEY.toLowerCase()
+    ) {
+      setConfirmationError(true)
+      return
+    } else {
+      setConfirmationError(false)
+    }
+
     setLoading(true)
+
     fetch("/", {
       method: "POST",
       headers: { "Content-Type": "application/x-www-form-urlencoded" },
@@ -59,7 +73,7 @@ const ContactForm = () => {
     >
       <input type="hidden" name="form-name" value="feedback" />
       <Row>
-        <Col>
+        <Col md="6">
           <Form.Group controlId="feedbackForm.select">
             <Form.Label className={styles.label}>Team</Form.Label>
             <Form.Control
@@ -75,6 +89,25 @@ const ContactForm = () => {
               <option value="team-c">C</option>
               <option value="team-d">D</option>
             </Form.Control>
+          </Form.Group>
+        </Col>
+        <Col md="6">
+          <Form.Group>
+            <Form.Label className={styles.label}>Confirmation</Form.Label>
+            <Form.Control
+              name="confirmation"
+              type="text"
+              placeholder="Confirmation key"
+              value={confirmation}
+              onChange={(e) => setConfirmation(e.target.value)}
+              className="input"
+              required
+            />
+            {confirmationError && (
+              <Form.Text className="text-warning">
+                Please input the correct confirmation key.
+              </Form.Text>
+            )}
           </Form.Group>
         </Col>
       </Row>
@@ -114,4 +147,4 @@ const ContactForm = () => {
   )
 }
 
-export default ContactForm
+export default FeedbackForm
