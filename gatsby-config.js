@@ -6,6 +6,7 @@ module.exports = {
     keywords: [`Simplify`],
   },
   plugins: [
+    `gatsby-plugin-netlify-cms`,
     `gatsby-transformer-json`,
     `gatsby-plugin-react-helmet`,
     `gatsby-transformer-remark`,
