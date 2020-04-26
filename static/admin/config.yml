@@ -5,8 +5,6 @@ backend:
 media_folder: static/assets
 public_folder: /assets
 
-publish_mode: editorial_workflow
-
 collections:
   - name: blog
     label: Blog
@@ -16,4 +14,5 @@ collections:
       - { name: path, label: Path }
       - { name: date, label: Date, widget: datetime }
       - { name: title, label: Title }
+      - { name: author, label: Author }
       - { name: body, label: Body, widget: markdown }

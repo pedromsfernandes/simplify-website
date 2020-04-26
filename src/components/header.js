@@ -8,45 +8,61 @@ import Navbar from "react-bootstrap/Navbar"
 
 import SimplifyLogoWhite from "../images/svg/simplify-logo.svg"
 
-const Header = ({ siteTitle, className }) => (
-  <header className={className}>
-    <Container>
-      <Navbar className="bg-transparent" expand="md">
-        <Navbar.Brand>
-          <Link to="/">
-            <SimplifyLogoWhite />
-          </Link>
-        </Navbar.Brand>
+const Header = ({ siteTitle, className }) => {
+  const links = [
+    {
+      link: "/",
+      title: "Home",
+    },
+    {
+      link: "/products",
+      title: "Products",
+    },
+    {
+      link: "/blog",
+      title: "Blog",
+    },
+    {
+      link: "/team",
+      title: "Team",
+    },
 
-        <Navbar.Toggle aria-controls="basic-navbar-nav" />
-        <Navbar.Collapse id="basic-navbar-nav" className="justify-content-end">
-          <Nav>
-            <Nav.Item>
-              <Nav.Link as="span">
-                <Link to="/">Home</Link>
-              </Nav.Link>
-            </Nav.Item>
-            <Nav.Item>
-              <Nav.Link as="span">
-                <Link to="/products">Products</Link>
-              </Nav.Link>
-            </Nav.Item>
-            <Nav.Item>
-              <Nav.Link as="span">
-                <Link to="/team">Team</Link>
-              </Nav.Link>
-            </Nav.Item>
-            <Nav.Item>
-              <Nav.Link as="span">
-                <Link to="/contact">Contact</Link>
-              </Nav.Link>
-            </Nav.Item>
-          </Nav>
-        </Navbar.Collapse>
-      </Navbar>
-    </Container>
-  </header>
-)
+    {
+      link: "/contact",
+      title: "Contact",
+    },
+  ]
+
+  return (
+    <header className={className}>
+      <Container>
+        <Navbar className="bg-transparent" expand="md">
+          <Navbar.Brand>
+            <Link to="/">
+              <SimplifyLogoWhite />
+            </Link>
+          </Navbar.Brand>
+
+          <Navbar.Toggle aria-controls="basic-navbar-nav" />
+          <Navbar.Collapse
+            id="basic-navbar-nav"
+            className="justify-content-end"
+          >
+            <Nav>
+              {links.map(({ link, title }) => (
+                <Nav.Item>
+                  <Nav.Link as="span">
+                    <Link to={link}>{title}</Link>
+                  </Nav.Link>
+                </Nav.Item>
+              ))}
+            </Nav>
+          </Navbar.Collapse>
+        </Navbar>
+      </Container>
+    </header>
+  )
+}
 
 Header.propTypes = {
   siteTitle: PropTypes.string,
