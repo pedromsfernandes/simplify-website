@@ -86,10 +86,6 @@ footer .contact-information {
   justify-content: space-between;
 }
 
-footer .social-links > * {
-  margin-right: 0.5em;
-}
-
 footer p {
   font-size: 1.25rem;
 }

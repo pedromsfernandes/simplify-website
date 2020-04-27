@@ -27,9 +27,17 @@ const Footer = () => (
             </p>
 
             <div className="social-links">
-              <Facebook />
-              <Instagram />
-              <LinkedIn />
+              <a href="https://facebook.com/">
+                <Facebook />
+              </a>
+
+              <a href="https://instagram.com/">
+                <Instagram />
+              </a>
+
+              <a href="https://linkedin.com/">
+                <LinkedIn />
+              </a>
             </div>
           </div>
         </div>
