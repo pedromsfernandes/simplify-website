@@ -9,14 +9,14 @@ const path = require("path")
 exports.createPages = ({ actions, graphql }) => {
   const { createPage } = actions
 
-  const templates = {
-    products: path.resolve("src/templates/product.js"),
-    blog: path.resolve("src/templates/blog.js"),
-  }
+  const productTemplate = path.resolve("src/templates/product.js")
+  const blogTemplate = path.resolve("src/templates/blog.js")
 
   return graphql(`
     {
-      allMarkdownRemark {
+      products: allMarkdownRemark(
+        filter: { fileAbsolutePath: { regex: "/products/" } }
+      ) {
         edges {
           node {
             html
@@ -24,6 +24,32 @@ exports.createPages = ({ actions, graphql }) => {
             frontmatter {
               path
               name
+              author
+            }
+          }
+        }
+      }
+      blogs: allMarkdownRemark(
+        sort: { order: DESC, fields: frontmatter___date }
+        filter: { fileAbsolutePath: { regex: "/blog/" } }
+      ) {
+        edges {
+          next {
+            frontmatter {
+              path
+            }
+          }
+          node {
+            frontmatter {
+              path
+              author
+              title
+              date
+            }
+          }
+          previous {
+            frontmatter {
+              path
             }
           }
         }
@@ -34,16 +60,25 @@ exports.createPages = ({ actions, graphql }) => {
       return Promise.reject(res.errors)
     }
 
-    res.data.allMarkdownRemark.edges.forEach(({ node }) => {
-      if (node.frontmatter.path) {
-        let type = node.frontmatter.path.match(/(?<=\/)\w*(?=\/)/)[0]
-        type = type ? type : "blog"
+    res.data.blogs.edges.forEach(({ previous, node, next }) => {
+      const path = `/blog/${node.frontmatter.path}`
+      createPage({
+        path,
+        component: blogTemplate,
+        context: {
+          previousPath: next ? next.frontmatter.path : null,
+          author: node.frontmatter.author,
+          shortPath: node.frontmatter.path,
+          nextPath: previous ? previous.frontmatter.path : null,
+        },
+      })
+    })
 
-        createPage({
-          path: node.frontmatter.path,
-          component: templates[type],
-        })
-      }
+    res.data.products.edges.forEach(({ node }) => {
+      createPage({
+        path: node.frontmatter.path,
+        component: productTemplate,
+      })
     })
   })
 }

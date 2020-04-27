@@ -14,5 +14,6 @@ collections:
       - { name: path, label: Path }
       - { name: date, label: Date, widget: datetime }
       - { name: title, label: Title }
+      - { name: peek, label: Peek }
       - { name: author, label: Author }
       - { name: body, label: Body, widget: markdown }

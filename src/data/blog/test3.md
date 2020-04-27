@@ -1,7 +1,7 @@
 ---
-path: "my-first-post"
-date: "2019-05-04"
-title: "My first blog post"
+path: "my-third-post"
+date: "2019-05-06"
+title: "My third blog post"
 author: "Aisha Animashaun"
 peek: Wow! I love blogging so much already. Did you know that “despite its name, salted duck eggs can also be made from chicken eggs, though the…
 ---

@@ -19,17 +19,16 @@ const Header = ({ siteTitle, className }) => {
       title: "Products",
     },
     {
-      link: "/blog",
-      title: "Blog",
-    },
-    {
       link: "/team",
       title: "Team",
     },
-
     {
       link: "/contact",
       title: "Contact",
+    },
+    {
+      link: "/blog",
+      title: "Blog",
     },
   ]
 
@@ -50,7 +49,7 @@ const Header = ({ siteTitle, className }) => {
           >
             <Nav>
               {links.map(({ link, title }) => (
-                <Nav.Item>
+                <Nav.Item key={title}>
                   <Nav.Link as="span">
                     <Link to={link}>{title}</Link>
                   </Nav.Link>

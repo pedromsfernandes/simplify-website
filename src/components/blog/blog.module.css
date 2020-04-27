@@ -1,0 +1,7 @@
+.arrow span {
+  text-decoration: underline;
+  text-transform: uppercase;
+  font-size: 0.9rem;
+  font-weight: bold;
+  margin-left: 1.5rem;
+}
