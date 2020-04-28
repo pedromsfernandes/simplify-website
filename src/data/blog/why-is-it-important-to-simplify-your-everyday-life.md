@@ -1,6 +1,6 @@
 ---
 path: why-is-it-important-to-simplify-your-everyday-life
-date: 2020-04-30
+date: 2020-04-30T00:00:00.000Z
 title: Why is it important to simplify your everyday life?
 peek: Todays’ society introduces a significant number of smart devices, gadgets
   as well as online and offline presence that needs to be kept updated to stay
@@ -28,4 +28,4 @@ Limit your possessions as well as limit your risks of spinal cord injuries in ca
 
 Simplification can range from organizing your home to implementing new technologies to facilitate your everyday life. The benefits include, but are not limited to, increased focus due to less distractions, created room for leisure activities resulting from efficiently handling tasks and the minimization of work overload and stress owing to the reduced multitasking and a clear overview of goals.
 
-Your simplification process at home starts with the above steps, but where can you learn more about incorporating this into your work or business? Right here, at Simplify...
+Your simplification process at home starts with the above steps, but where can you learn more about incorporating this into your work or business? Right here, at Simplify.
