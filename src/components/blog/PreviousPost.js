@@ -4,7 +4,7 @@ import { Link } from "gatsby"
 
 import styles from "./blog.module.css"
 
-import LeftArrow from "../../images/svg/left_arrow.inline.svg"
+import LeftArrow from "../../images/svg/left_arrow_small.inline.svg"
 
 const PreviousPost = ({ link }) => (
   <Container>
