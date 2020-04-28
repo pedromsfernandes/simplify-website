@@ -1,11 +1,17 @@
 ---
-path: "why-is-it-important-to-simplify-your-everyday-life"
-date: "2020-04-30"
-title: "Why is it important to simplify your everyday life?"
-author: "Aisha Animashaun"
-peek: Todays’ society introduces a significant number of smart devices, gadgets as well as online and offline presence that needs to be kept updated to stay connected with new trends. The increased complexity introduced by new technologies and constant availability can take a toll on mental healthand strain enjoyment of once personal life. Therefore, simplification is key to process and implement new information effectively into everyday life. So, what are some of the steps that can be taken at home to start the simplification process and what are further benefits you may ask?
+path: why-is-it-important-to-simplify-your-everyday-life
+date: 2020-04-30
+title: Why is it important to simplify your everyday life?
+peek: Todays’ society introduces a significant number of smart devices, gadgets
+  as well as online and offline presence that needs to be kept updated to stay
+  connected with new trends. The increased complexity introduced by new
+  technologies and constant availability can take a toll on mental healthand
+  strain enjoyment of once personal life. Therefore, simplification is key to
+  process and implement new information effectively into everyday life. So, what
+  are some of the steps that can be taken at home to start the simplification
+  process and what are further benefits you may ask?
+author: Aisha Animashaun
 ---
-
 Todays’ society introduces a significant number of smart devices, gadgets as well as online and offline presence that needs to be kept updated to stay connected with new trends. The increased complexity introduced by new technologies and constant availability can take a toll on mental healthand strain enjoyment of once personal life. Therefore, simplification is key to process and implement new information effectively into everyday life. So, what are some of the steps that can be taken at home to start the simplification process and what are further benefits you may ask?
 
 #### Gain control of your time
@@ -18,9 +24,8 @@ Handling multiple tasks at once, like being on the phone while writing an email 
 
 #### Declutter your house
 
-Limit your possessions as well as limit your risks of spinal cord injuries in case of tripping over objects on the floor or getting hit from falling pieces in a closet above. In order to learn about spinal cord injuries and the possible risks in everyday life have a look at our [Neuropal](/products/neuropal) product page. Decluttering your space can greatly reduce stress and anxiety and provides your direct access to important appliances that have been
-thought lost in the one cupboard we store everything we don’t have use for at the moment.
+Limit your possessions as well as limit your risks of spinal cord injuries in case of tripping over objects on the floor or getting hit from falling pieces in a closet above. In order to learn about spinal cord injuries and the possible risks in everyday life have a look at our [Neuropal](/products/neuropal) product page. Decluttering your space can greatly reduce stress and anxiety and provides your direct access to important appliances that have been thought lost in the one cupboard we store everything we don’t have use for at the moment.
 
 Simplification can range from organizing your home to implementing new technologies to facilitate your everyday life. The benefits include, but are not limited to, increased focus due to less distractions, created room for leisure activities resulting from efficiently handling tasks and the minimization of work overload and stress owing to the reduced multitasking and a clear overview of goals.
 
-Your simplification process at home starts with the above steps, but where can you learn more about incorporating this into your work or business? Right here, at Simplify.
+Your simplification process at home starts with the above steps, but where can you learn more about incorporating this into your work or business? Right here, at Simplify...
