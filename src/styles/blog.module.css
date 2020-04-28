@@ -45,6 +45,10 @@
   padding-left: 1rem;
 }
 
+.blogContent img {
+  width: 100%;
+}
+
 .blogContent a {
   color: var(--lighter-blue);
 }
