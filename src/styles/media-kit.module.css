@@ -1,0 +1,27 @@
+@media (min-width: 768px) {
+  .page {
+    background: url(../images/media-kit.png);
+    background-size: cover;
+    background-position-y: -180px;
+    top: -5;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    padding-bottom: 5rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .page {
+    background: url(../images/media-kit.png);
+    background-size: cover;
+    background-position-y: -100px;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    padding-bottom: 25rem;
+  }
+}

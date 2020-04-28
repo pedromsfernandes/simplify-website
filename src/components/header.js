@@ -41,6 +41,11 @@ const Header = ({ siteTitle, className }) => (
                 <Link to="/contact">Contact</Link>
               </Nav.Link>
             </Nav.Item>
+            <Nav.Item>
+              <Nav.Link as="span">
+                <Link to="/media-kit">Media Kit</Link>
+              </Nav.Link>
+            </Nav.Item>
           </Nav>
         </Navbar.Collapse>
       </Navbar>
