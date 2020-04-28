@@ -1,9 +1,7 @@
 import React from "react"
-import { graphql, Link, useStaticQuery } from "gatsby"
-import Img from "gatsby-image"
-import BlogItem from "./BlogItem"
+import { graphql, useStaticQuery } from "gatsby"
 
-import { Row, Col } from "react-bootstrap"
+import BlogItem from "./BlogItem"
 
 import styles from "./blog.module.css"
 
@@ -15,7 +13,10 @@ const getAllBlogs = (data) =>
 const Overall = () => {
   const data = useStaticQuery(graphql`
     query getBlogs {
-      allMarkdownRemark(filter: { fileAbsolutePath: { regex: "/blog/" } }) {
+      allMarkdownRemark(
+        filter: { fileAbsolutePath: { regex: "/blog/" } }
+        sort: { order: DESC, fields: frontmatter___date }
+      ) {
         edges {
           node {
             frontmatter {

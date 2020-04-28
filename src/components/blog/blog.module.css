@@ -1,9 +1,18 @@
 .arrow span {
   text-decoration: underline;
-  text-transform: uppercase;
   font-size: 0.9rem;
   font-weight: bold;
-  margin-left: 1.5rem;
+  margin: 0 1rem;
+}
+
+.arrow-right {
+  position: absolute;
+  right: 0;
+}
+
+.arrow-left {
+  position: absolute;
+  left: 0;
 }
 
 .blogList {

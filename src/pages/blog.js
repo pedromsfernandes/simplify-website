@@ -9,7 +9,7 @@ import Overall from "../components/blog/Overall.js"
 
 const BlogPage = () => (
   <Layout headerClassName={styles.background}>
-    <div className={styles.page}>
+    <div className={[styles.page, styles.blogListPage].join(" ")}>
       <Container>
         <SEO title="Blog" />
         <h1 className="main-title text-center pt-5">Our blog</h1>

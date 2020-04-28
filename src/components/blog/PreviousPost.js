@@ -7,8 +7,8 @@ import styles from "./blog.module.css"
 import LeftArrow from "../../images/svg/left_arrow.inline.svg"
 
 const PreviousPost = ({ link }) => (
-  <Container className="mb-4">
-    <Link to={link} className={styles.arrow}>
+  <Container>
+    <Link to={link} className={[styles.arrow, styles.arrowLeft].join(" ")}>
       <LeftArrow />
       <span>Previous post</span>
     </Link>
