@@ -5,3 +5,38 @@
   font-weight: bold;
   margin-left: 1.5rem;
 }
+
+.blogList {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.blogItem {
+  width: 55%;
+  margin-bottom: 2rem;
+}
+
+.blogInfo {
+  font-weight: bold;
+  font-size: 0.9rem;
+}
+
+.blogLink {
+  color: var(--light-blue);
+}
+
+.blogLink h4 {
+  font-weight: bold;
+}
+
+.blogLink:hover {
+  color: var(--blue);
+}
+
+@media (max-width: 768px) {
+  .blogItem {
+    width: 100%;
+  }
+}

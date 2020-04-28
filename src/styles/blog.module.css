@@ -1,0 +1,38 @@
+@media (min-width: 768px) {
+  .page {
+    background: url(../images/blog.png);
+    background-size: cover;
+    background-position-y: -200px;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    padding-bottom: 3rem;
+  }
+}
+
+.page {
+  background-color: var(--darker-blue);
+}
+
+.intro {
+  font-size: 0.9rem;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 5rem;
+}
+
+.background {
+  background-color: var(--darker-blue);
+}
+
+@media (max-width: 768px) {
+  .intro {
+    margin-top: 1.5rem;
+  }
+
+  .page {
+    padding-bottom: 4rem;
+  }
+}

@@ -8,13 +8,15 @@ import Layout from "../components/layout"
 import PreviousPost from "../components/blog/PreviousPost"
 import NextPost from "../components/blog/NextPost"
 
+import styles from "./product.module.css"
+
 export default function Template({ data }) {
   const { blog, author, previous, next } = data
   const { date, title } = blog.frontmatter
   const { name, course, role, img } = author
 
   return (
-    <Layout>
+    <Layout headerClassName={styles.background}>
       <SEO title={title} />
       <article className="container">
         <h1 className="text-center">{title}</h1>

@@ -5,6 +5,8 @@ import BlogItem from "./BlogItem"
 
 import { Row, Col } from "react-bootstrap"
 
+import styles from "./blog.module.css"
+
 const getAllBlogs = (data) =>
   data.allMarkdownRemark.edges.map(({ node }) => ({
     ...node.frontmatter,
@@ -33,7 +35,7 @@ const Overall = () => {
 
   return (
     blogs.length > 0 && (
-      <>
+      <div className={styles.blogList}>
         {blogs.map(({ title, path, date, author, peek }) => (
           <BlogItem
             key={title}
@@ -44,7 +46,7 @@ const Overall = () => {
             peek={peek}
           />
         ))}
-      </>
+      </div>
     )
   )
 }
