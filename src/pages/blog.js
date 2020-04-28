@@ -14,7 +14,7 @@ const BlogPage = () => (
         <SEO title="Blog" />
         <h1 className="main-title text-center pt-5">Our blog</h1>
         <p className={styles.intro}>
-          Some short articles and insights writen by the Simplify team.
+          Some short articles, news and insights written by the Simplify team.
         </p>
         <Overall />
       </Container>
