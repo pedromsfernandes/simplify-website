@@ -13,8 +13,8 @@ import styles from "../styles/blog.module.css"
 
 export default function Template({ data }) {
   const { blog, author, previous, next } = data
-  const { date, title } = blog.frontmatter
-  const { name, course, role, img } = author
+  const { date, title, img } = blog.frontmatter
+  const { name, course, role, img: authorImg } = author
 
   return (
     <Layout headerClassName={styles.background}>
@@ -22,10 +22,17 @@ export default function Template({ data }) {
       <div className={[styles.page, styles.blogPage, "pt-5"].join(" ")}>
         <Container className={styles.container}>
           <article>
-            <h1 className="text-center main-title">{title}</h1>
+            <h1 className="main-title">{title}</h1>
             <p className={styles.blogInfo}>
               {date} • Written by {name}
             </p>
+            {img && (
+              <Img
+                className={styles.img}
+                fluid={img.childImageSharp.fluid}
+                alt={name}
+              />
+            )}
             <div
               className={styles.blogContent}
               dangerouslySetInnerHTML={{ __html: blog.html }}
@@ -33,8 +40,8 @@ export default function Template({ data }) {
             <hr className={styles.separator} />
             <footer className="d-flex align-items-center py-4">
               <Img
-                className={styles.img}
-                fixed={img.childImageSharp.fixed}
+                className={styles.authorImg}
+                fixed={authorImg.childImageSharp.fixed}
                 alt={name}
               />
               <p className={styles.blogAuthor}>
@@ -70,6 +77,13 @@ export const blogQuery = graphql`
         date(formatString: "MMMM DD, YYYY")
         path
         title
+        img {
+          childImageSharp {
+            fluid(maxWidth: 1000) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
       }
     }
     previous: markdownRemark(frontmatter: { path: { eq: $previousPath } }) {
@@ -88,7 +102,7 @@ export const blogQuery = graphql`
       role
       img {
         childImageSharp {
-          fixed(width: 160, height: 160) {
+          fixed(width: 50, height: 50) {
             ...GatsbyImageSharpFixed
           }
         }

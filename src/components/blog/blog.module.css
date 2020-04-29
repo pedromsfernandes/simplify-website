@@ -23,8 +23,7 @@
 }
 
 .blogItem {
-  width: 55%;
-  margin-bottom: 2rem;
+  width: 70%;
 }
 
 .blogInfo {
@@ -41,11 +40,41 @@
 }
 
 .blogLink:hover {
-  color: var(--blue);
+  color: var(--lighter-blue);
+}
+
+.separator {
+  background-color: var(--white);
+  opacity: 0.2;
+  margin: 2rem 0;
+}
+
+@media (max-width: 992px) {
+  .img {
+    width: 120px !important;
+    height: 120px !important;
+  }
 }
 
 @media (max-width: 768px) {
   .blogItem {
     width: 100%;
+  }
+
+  .blogInfo {
+    margin-bottom: 0;
+  }
+
+  .peek {
+    display: none;
+  }
+
+  .img {
+    width: 85px !important;
+    height: 85px !important;
+  }
+
+  .blogLink h4 {
+    font-size: 1.25rem;
   }
 }

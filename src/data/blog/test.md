@@ -4,6 +4,7 @@ date: "2019-05-04"
 title: "My first blog post"
 author: "Aisha Animashaun"
 peek: Wow! I love blogging so much already. Did you know that “despite its name, salted duck eggs can also be made from chicken eggs, though the…
+img: "../../../static/assets/carousel.png"
 ---
 
 #### Title h4 in the midle of text

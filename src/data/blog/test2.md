@@ -4,6 +4,7 @@ date: "2019-05-05"
 title: "My second blog post"
 author: "Pedro Costa"
 peek: Wow! I love blogging so much already. Did you know that “despite its name, salted duck eggs can also be made from chicken eggs, though the…
+img: "../../../static/assets/carousel.png"
 ---
 
 #### Title h4 in the midle of text

@@ -11,7 +11,9 @@ peek: Todays’ society introduces a significant number of smart devices, gadget
   are some of the steps that can be taken at home to start the simplification
   process and what are further benefits you may ask?
 author: Aisha Animashaun
+img: "../../../static/assets/first-blog-cover.jpg"
 ---
+
 Todays’ society introduces a significant number of smart devices, gadgets as well as online and offline presence that needs to be kept updated to stay connected with new trends. The increased complexity introduced by new technologies and constant availability can take a toll on mental healthand strain enjoyment of once personal life. Therefore, simplification is key to process and implement new information effectively into everyday life. So, what are some of the steps that can be taken at home to start the simplification process and what are further benefits you may ask?
 
 #### Gain control of your time

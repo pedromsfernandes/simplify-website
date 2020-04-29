@@ -5,11 +5,6 @@ import BlogItem from "./BlogItem"
 
 import styles from "./blog.module.css"
 
-const getAllBlogs = (data) =>
-  data.allMarkdownRemark.edges.map(({ node }) => ({
-    ...node.frontmatter,
-  }))
-
 const Overall = () => {
   const data = useStaticQuery(graphql`
     query getBlogs {
@@ -25,6 +20,13 @@ const Overall = () => {
               date(formatString: "MMMM DD, YYYY")
               author
               peek
+              img {
+                childImageSharp {
+                  fixed(width: 160, height: 160) {
+                    ...GatsbyImageSharpFixed
+                  }
+                }
+              }
             }
           }
         }
@@ -32,21 +34,23 @@ const Overall = () => {
     }
   `)
 
-  const blogs = getAllBlogs(data)
-
   return (
-    blogs.length > 0 && (
+    data.allMarkdownRemark.edges.length > 0 && (
       <div className={styles.blogList}>
-        {blogs.map(({ title, path, date, author, peek }) => (
-          <BlogItem
-            key={title}
-            title={title}
-            path={`/blog/${path}`}
-            date={date}
-            author={author}
-            peek={peek}
-          />
-        ))}
+        {data.allMarkdownRemark.edges.map(({ node }) => {
+          const { title, path, date, author, peek, img } = node.frontmatter
+          return (
+            <BlogItem
+              key={title}
+              title={title}
+              path={`/blog/${path}`}
+              date={date}
+              author={author}
+              peek={peek}
+              img={img}
+            />
+          )
+        })}
       </div>
     )
   )
