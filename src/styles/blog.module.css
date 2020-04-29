@@ -1,7 +1,8 @@
 @media (min-width: 768px) {
   .page {
-    background-size: cover;
-    background-position-y: -200px;
+    background-size: 95%;
+    background-repeat: no-repeat;
+    background-position-y: -230px;
     top: 0;
     left: 0;
     width: 100%;
@@ -12,10 +13,14 @@
 
   .blogListPage {
     background-image: url(../images/blog-list.png);
+    background-position-y: -130px;
+    background-position-x: 50px;
   }
 
   .blogPage {
+    background-size: 90%;
     background-image: url(../images/blog.png);
+    background-position-x: 100px;
   }
 }
 
@@ -106,6 +111,12 @@
   opacity: 0.5;
 }
 
+@media (max-width: 1190px) {
+  .page {
+    background-position-y: -70px;
+  }
+}
+
 @media (max-width: 768px) {
   .intro {
     margin-top: 1.5rem;
@@ -129,5 +140,11 @@
 
   .authorImg {
     height: 50px !important;
+  }
+}
+
+@media (max-height: 400px) {
+  .page {
+    background-image: none;
   }
 }
