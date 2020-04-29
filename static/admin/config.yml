@@ -16,4 +16,5 @@ collections:
       - { name: title, label: Title }
       - { name: peek, label: Peek }
       - { name: author, label: Author }
+      - { name: img, label: Cover Image, widget: "image" }
       - { name: body, label: Body, widget: markdown }
