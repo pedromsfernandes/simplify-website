@@ -101,11 +101,10 @@
   font-size: 0.9rem;
   margin-bottom: 0;
   margin-left: 1rem;
+  flex-shrink: 10;
 }
 
 .authorImg {
-  width: 70px !important;
-  height: 70px !important;
   border-radius: 50%;
   filter: saturate(0);
   opacity: 0.5;
