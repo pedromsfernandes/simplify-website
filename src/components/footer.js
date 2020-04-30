@@ -5,6 +5,10 @@ import LinkedIn from "../images/svg/linkedin.svg"
 import Instagram from "../images/svg/instagram.svg"
 import Facebook from "../images/svg/facebook.svg"
 
+const FACEBOOK_URL = "https://fb.me/simplifylgp"
+const INSTAGRAM_URL = "https://www.instagram.com/simpli.fy/"
+const LINKEDIN_URL = "https://www.linkedin.com/company/simplify-lgp"
+
 const Footer = () => (
   <>
     <Container>
@@ -27,15 +31,15 @@ const Footer = () => (
             </p>
 
             <div className="social-links">
-              <a href="https://facebook.com/">
+              <a href={FACEBOOK_URL}>
                 <Facebook />
               </a>
 
-              <a href="https://instagram.com/">
+              <a href={INSTAGRAM_URL}>
                 <Instagram />
               </a>
 
-              <a href="https://linkedin.com/">
+              <a href={LINKEDIN_URL}>
                 <LinkedIn />
               </a>
             </div>
