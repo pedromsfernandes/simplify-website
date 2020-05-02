@@ -289,4 +289,8 @@ footer a {
   .page-not-found .btn {
     font-size: 13px;
   }
+
+  footer h1 {
+    font-size: 3.5rem;
+  }
 }
