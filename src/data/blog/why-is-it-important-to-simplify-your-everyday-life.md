@@ -2,12 +2,14 @@
 path: why-is-it-important-to-simplify-your-everyday-life
 date: 2020-04-30T00:00:00.000Z
 title: Why is it important to simplify your everyday life?
-peek: Eager to gain more free time, better organizational management skills and more? Simplification starts small. Some of the steps that can be taken at home to begin this process and further benefits explained. Your journey starts here.
+peek: Eager to gain more free time, better organizational management skills and
+  more? Simplification starts small. Some of the steps that can be taken at home
+  to begin this process and further benefits explained. Your journey starts
+  here.
 author: Aisha Animashaun
-img: "../../../static/assets/first-blog-cover.jpg"
+img: ../../../static/assets/first-blog-cover.jpg
 ---
-
-Todays’ society introduces a significant number of smart devices, gadgets as well as online and offline presence that needs to be kept updated to stay connected with new trends. The increased complexity introduced by new technologies and constant availability can take a toll on mental healthand strain enjoyment of once personal life. Therefore, simplification is key to process and implement new information effectively into everyday life. So, what are some of the steps that can be taken at home to start the simplification process and what are further benefits you may ask?
+Todays’ society introduces a significant number of smart devices, gadgets as well as online and offline presence that needs to be kept updated to stay connected with new trends. The increased complexity introduced by new technologies and constant availability can take a toll on mental health and strain enjoyment of once personal life. Therefore, simplification is key to process and implement new information effectively into everyday life. So, what are some of the steps that can be taken at home to start the simplification process and what are further benefits you may ask?
 
 #### Gain control of your time
 
