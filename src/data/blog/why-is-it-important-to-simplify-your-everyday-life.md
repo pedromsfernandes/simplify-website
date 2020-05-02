@@ -9,7 +9,7 @@ peek: Eager to gain more free time, better organizational management skills and
 author: Aisha Animashaun
 img: ../../../static/assets/first-blog-cover.jpg
 ---
-Todays’ society introduces a significant number of smart devices, gadgets as well as online and offline presence that needs to be kept updated to stay connected with new trends. The increased complexity introduced by new technologies and constant availability can take a toll on mental health and strain enjoyment of once personal life. Therefore, simplification is key to process and implement new information effectively into everyday life. So, what are some of the steps that can be taken at home to start the simplification process and what are further benefits you may ask?
+Today’s society introduces a significant number of smart devices, gadgets as well as online and offline presence that needs to be kept updated to stay connected with new trends. The increased complexity introduced by new technologies and constant availability can take a toll on mental health and strain enjoyment of once personal life. Therefore, simplification is key to process and implement new information effectively into everyday life. So, what are some of the steps that can be taken at home to start the simplification process and what are further benefits you may ask?
 
 #### Gain control of your time
 
