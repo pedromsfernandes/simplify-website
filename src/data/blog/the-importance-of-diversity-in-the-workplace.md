@@ -1,7 +1,7 @@
 ---
-path: "the-importance-of-diversity-in-the-workplace "
+path: the-importance-of-diversity-in-the-workplace
 date: 2020-05-12T12:01:08.998Z
-title: "The importance of diversity in the workplace "
+title: The importance of diversity in the workplace
 peek: From the nature of our company to its core, we are a multidisciplinary
   team from various backgrounds. Every project has the collaboration of members
   from different departments.
