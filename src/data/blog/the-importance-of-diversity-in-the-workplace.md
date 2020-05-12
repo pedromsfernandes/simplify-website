@@ -1,5 +1,5 @@
 ---
-path: "The importance of diversity in the workplace "
+path: "the-importance-of-diversity-in-the-workplace "
 date: 2020-05-12T11:48:34.035Z
 title: "The importance of diversity in the workplace "
 peek: From the nature of our company to its core, we are a multidisciplinary
