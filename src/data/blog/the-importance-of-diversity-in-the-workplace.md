@@ -5,7 +5,7 @@ title: "The importance of diversity in the workplace "
 peek: From the nature of our company to its core, we are a multidisciplinary
   team from various backgrounds. Every project has the collaboration of members
   from different departments.
-author: Isabella Barbosa Silva
+author: Isabella Silva
 img: /assets/photo-1589009602160-c8370214b5eb.jpeg
 ---
 From the nature of our company to its core, we are a multidisciplinary team from various backgrounds. Every project has the collaboration of [members from different departments](https://simplify-lgp.tech/team). This encourage us to learn from each other and allow us to apply our different set of skills to work together on better solutions to our clients and our products.
