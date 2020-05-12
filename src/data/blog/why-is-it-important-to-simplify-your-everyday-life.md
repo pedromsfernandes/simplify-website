@@ -1,7 +1,7 @@
 ---
-path: why-is-it-important-to-simplify-your-everyday-life
+path: why-is-it-beneficial-to-simplify-your-everyday-life
 date: 2020-04-30T00:00:00.000Z
-title: Why is it important to simplify your everyday life?
+title: Why is it beneficial to simplify your everyday life?
 peek: Eager to gain more free time, better organizational management skills and
   more? Simplification starts small. Some of the steps that can be taken at home
   to begin this process and further benefits explained. Your journey starts
