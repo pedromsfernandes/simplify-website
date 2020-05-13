@@ -2,8 +2,10 @@ import React from "react"
 import { Row, Col } from "react-bootstrap"
 import Arrow from "../../images/download-icon.png"
 
+import styles from "../../styles/media-kit.module.css"
+
 const DownloadItem = ({ file, title, description }) => (
-  <a href={file.publicURL} download>
+  <a href={file.publicURL} download className={styles.item}>
     <div className="media-card py-5 px-3">
       <Row className="text-center">
         <Col

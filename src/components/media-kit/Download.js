@@ -26,7 +26,7 @@ const MediaDownload = () => {
     <Row className="text-center mt-5">
       {data.allMediaKitJson.edges.map(
         ({ node: { title, description, file } }) => (
-          <Col md="4" className="d-flex mt-3">
+          <Col key={title} md="4" className="d-flex mt-3">
             <DownloadItem title={title} description={description} file={file} />
           </Col>
         )

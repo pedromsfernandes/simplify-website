@@ -8,7 +8,8 @@ import Col from "react-bootstrap/Col"
 
 import styles from "../styles/media-kit.module.css"
 
-import Download from "../components/media-kit/Download.js"
+import Download from "../components/media-kit/Download"
+import Yumpu from "../components/media-kit/Yumpu"
 
 const MediaKitPage = () => (
   <Layout>
@@ -32,9 +33,9 @@ const MediaKitPage = () => (
             </p>
           </Col>
         </Row>
-
         <Download />
       </Container>
+      <Yumpu />
     </div>
   </Layout>
 )
