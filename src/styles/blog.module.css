@@ -1,0 +1,149 @@
+@media (min-width: 768px) {
+  .page {
+    background-size: 95%;
+    background-repeat: no-repeat;
+    background-position-y: -230px;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    padding-bottom: 3rem;
+  }
+
+  .blogListPage {
+    background-image: url(../images/blog-list.png);
+    background-position-y: -130px;
+    background-position-x: 50px;
+  }
+
+  .blogPage {
+    background-size: 90%;
+    background-image: url(../images/blog.png);
+    background-position-x: 100px;
+  }
+}
+
+.page {
+  background-color: var(--darker-blue);
+}
+
+.img {
+  margin-top: 2rem;
+}
+
+.blogContent {
+  margin-top: 2rem;
+}
+
+.blogContent h4,
+.blogContent h5 {
+  font-weight: bold;
+}
+
+.blogContent p {
+  line-height: 24px;
+  letter-spacing: 0.5px;
+  margin-bottom: 1.5rem;
+}
+
+.blogContent blockquote {
+  font-style: italic;
+  font-size: 1.1rem;
+  border-left: 5px solid var(--yellow);
+  padding-left: 1rem;
+}
+
+.blogContent img {
+  width: 100%;
+}
+
+.blogContent a {
+  color: var(--lighter-blue);
+}
+
+.blogContent a:hover {
+  color: var(--light-blue);
+}
+
+.intro {
+  font-size: 0.9rem;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 5rem;
+}
+
+.blogInfo {
+  font-weight: bold;
+  font-size: 0.9rem;
+  margin-bottom: 0;
+}
+
+.container {
+  width: 50%;
+}
+
+.background {
+  background-color: var(--darker-blue);
+}
+
+.separator {
+  background-color: var(--yellow);
+  margin: 2rem 0;
+}
+
+.arrows {
+  margin-top: 3rem;
+  padding-bottom: 5rem;
+}
+
+.blogAuthor {
+  font-size: 0.9rem;
+  margin-bottom: 0;
+  margin-left: 1rem;
+  flex-shrink: 10;
+}
+
+.authorImg {
+  border-radius: 50%;
+  filter: saturate(0);
+  opacity: 0.5;
+}
+
+@media (max-width: 1190px) {
+  .page {
+    background-position-y: -70px;
+  }
+}
+
+@media (max-width: 768px) {
+  .intro {
+    margin-top: 1.5rem;
+  }
+
+  .page {
+    padding-bottom: 4rem;
+  }
+
+  .container {
+    width: 100%;
+  }
+
+  .blogInfo {
+    margin-top: 1rem;
+  }
+
+  .arrows {
+    display: none;
+  }
+
+  .authorImg {
+    height: 50px !important;
+  }
+}
+
+@media (max-height: 400px) {
+  .page {
+    background-image: none;
+  }
+}

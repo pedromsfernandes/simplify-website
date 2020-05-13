@@ -81,6 +81,23 @@ footer h1 {
   margin-bottom: 2.5rem;
 }
 
+footer .contact-information {
+  display: flex;
+  justify-content: space-between;
+}
+
+@media (max-width: 768px) {
+  footer .contact-information,
+  footer p {
+    display: flex;
+    flex-direction: column;
+  }
+
+  footer .social-links {
+    margin-top: 1em;
+  }
+}
+
 footer p {
   font-size: 1.25rem;
 }
@@ -291,5 +308,9 @@ footer a {
 
   .page-not-found .btn {
     font-size: 13px;
+  }
+
+  footer h1 {
+    font-size: 3.5rem;
   }
 }
