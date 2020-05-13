@@ -11,7 +11,7 @@ const Yumpu = () => (
     </Helmet>
     <Container fluid className={styles.yumpuContainer}>
       <Row className="align-items-center justify-content-center">
-        <Col sm="5">
+        <Col sm="6">
           <div
             className={styles.embedContainer}
             data-page-width="477"
@@ -20,7 +20,7 @@ const Yumpu = () => (
           >
             <iframe
               title="guidelines"
-              src="https://www.yumpu.com/pt/embed/view/KmjcDaiB3yY8Tzo6"
+              src="https://www.yumpu.com/pt/embed/view/Xj23e6PIqx7fhdSa"
               frameBorder="0"
               allowFullScreen={true}
               allowtransparency="true"
