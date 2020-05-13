@@ -1,0 +1,17 @@
+[
+  {
+    "title": "Simplify info",
+    "description": "Find out more about our story and products.",
+    "file": "./info.pdf"
+  },
+  {
+    "title": "Brand guidelines",
+    "description": "Download our brand guidelines in PDF.",
+    "file": "./guidelines.pdf"
+  },
+  {
+    "title": "Media assets",
+    "description": "Our logo and photos available for download.",
+    "file": "./media-kit.zip"
+  }
+]
