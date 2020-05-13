@@ -29,7 +29,13 @@ const MediaKitPage = () => (
               please contact us at
             </p>
             <p className="mail text-center font-weight-bold pt-0">
-              press@simplify-lgp.tech
+              <a
+                href="mailto:press@simplify-lgp.tech"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                press@simplify-lgp.tech
+              </a>
             </p>
           </Col>
         </Row>
