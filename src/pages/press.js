@@ -18,9 +18,9 @@ const MediaKitPage = () => (
         <SEO title="Media Kit" />
         <Row className="justify-content-center align-items-center">
           <Col xs="8">
-            <h1 className="main-title text-center pt-5">Media Kit</h1>
+            <h1 className="main-title text-center pt-5">Press</h1>
             <p className="text-center pt-2">
-              Hello jornalist and media professionals! Here is everything you
+              Hello journalists and media professionals! Here is everything you
               need to put your story together or use our brand and assets,
               including our logo.
             </p>

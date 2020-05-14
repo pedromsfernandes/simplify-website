@@ -27,8 +27,8 @@ const Header = ({ siteTitle, className }) => {
       title: "Contact",
     },
     {
-      link: "/media-kit",
-      title: "Media Kit",
+      link: "/press",
+      title: "Press",
     },
     {
       link: "/blog",
