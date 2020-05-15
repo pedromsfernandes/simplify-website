@@ -1,0 +1,17 @@
+[
+  {
+    "title": "Media kit",
+    "description": "Find out more about our story and products.",
+    "file": "./simplify-media-press-kit.zip"
+  },
+  {
+    "title": "Brand guidelines",
+    "description": "Download our brand guidelines in PDF.",
+    "file": "./simplify-brand-book.pdf"
+  },
+  {
+    "title": "Media assets",
+    "description": "Our logo and photos available for download.",
+    "file": "./simplify-media-assets.zip"
+  }
+]
