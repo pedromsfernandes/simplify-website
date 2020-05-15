@@ -20,7 +20,7 @@ const Yumpu = () => (
           >
             <iframe
               title="guidelines"
-              src="https://www.yumpu.com/pt/embed/view/Xj23e6PIqx7fhdSa"
+              src="https://www.yumpu.com/en/embed/view/YTcOhjw8XA5fDdaW"
               frameBorder="0"
               allowFullScreen={true}
               allowtransparency="true"
