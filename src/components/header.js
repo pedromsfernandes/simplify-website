@@ -27,6 +27,10 @@ const Header = ({ siteTitle, className }) => {
       title: "Contact",
     },
     {
+      link: "/press",
+      title: "Press",
+    },
+    {
       link: "/blog",
       title: "Blog",
     },
