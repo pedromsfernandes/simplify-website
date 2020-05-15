@@ -15,7 +15,7 @@ const MediaKitPage = () => (
   <Layout>
     <div className={styles.page}>
       <Container>
-        <SEO title="Media Kit" />
+        <SEO title="Press" />
         <Row className="justify-content-center align-items-center">
           <Col xs="8">
             <h1 className="main-title text-center pt-5">Press</h1>
