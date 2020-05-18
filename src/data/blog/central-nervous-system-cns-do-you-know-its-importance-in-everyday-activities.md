@@ -1,7 +1,7 @@
 ---
 path: central-nervous-systems-cns-and-its-importance-everyday-activities
 date: 2020-05-13T13:44:58.446Z
-title: "Central Nervous System (CNS): Do you know its importance?"
+title: "Central Nervous System (CNS): Do you know its significants?"
 peek: We can say that it is responsible for our perception of the world, since
   it is responsible for the functioning of our body and the execution of
   locomotive, reasoning and memory activities. Without it, walking, talking or
