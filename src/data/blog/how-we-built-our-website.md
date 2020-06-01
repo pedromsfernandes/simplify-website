@@ -4,10 +4,8 @@ date: 2020-06-01T09:33:59.898Z
 title: How we built our website
 peek: "If you're an aspiring web developer, then you probably know that the
   frontend market is largely occupied by three great frameworks/libraries:
-  React, Vue and Angular. While theoretically we could settle for one of these
-  to develop our website, we realized it would be helpful to have a tool that
-  could easily import data from sources that even non tech-savvy people could
-  understand..."
+  React, Vue and Angular. Theoretically we could settle for one of these to
+  develop our website, but then we simplified. Enter GatsbyJS."
 author: Pedro Fernandes
 img: /assets/christopher-gower-m_hrflhgabo-unsplash.jpg
 ---
