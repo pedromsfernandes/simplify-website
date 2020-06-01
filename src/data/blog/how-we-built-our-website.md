@@ -11,8 +11,6 @@ peek: "If you're an aspiring web developer, then you probably know that the
 author: Pedro Fernandes
 img: /assets/christopher-gower-m_hrflhgabo-unsplash.jpg
 ---
-**How we built our website**
-
 If you're an aspiring web developer, then you probably know that the frontend market is largely occupied by three great frameworks/libraries: React, Vue and Angular. While theoretically we could settle for one of these to develop our website, we realized it would be helpful to have a tool that could easily import data from sources that even non tech-savvy people could understand. Enter [GatsbyJS](https://slack-redir.net/link?url=https%3A%2F%2Fwww.gatsbyjs.org%2F).
 
 Gatsby is a static site generator, built with React and GraphQL, two of the most popular technologies in recent years. Some of its strongest points are folder based routing, template based pages and a large plugin library, all of which we extensively used.
