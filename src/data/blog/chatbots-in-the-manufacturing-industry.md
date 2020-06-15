@@ -6,7 +6,7 @@ peek: The manufacturing industry remains a critical force in both advanced and
   developing economies. However, the sector has changed, bringing opportunities
   and challenges to business leaders and policy makers.
 author: João Barquinha
-img: /assets/chatbots-content-marketing-comteudo-webtexto.png
+img: /assets/chatbot.jpg
 ---
 The manufacturing industry remains a critical force in both advanced and developing economies. However, the sector has changed, bringing opportunities and challenges to business leaders and policy makers.
 
