@@ -1,7 +1,7 @@
 ---
 path: Why-is-teamwork-the-key-element-for-a-successful-company
 date: 2020-05-25T10:20:04.210Z
-title: Why is teamwork the key element for a successful company?
+title: Why Is Teamwork the Key Element for a Successful Company?
 peek: Working in a team can be tough and challenging as it brings together a
   variety of opinions, values, past work experiences, upbringings, and skills in
   communication. It includes commitment and a will to work towards a shared
