@@ -1,7 +1,7 @@
 ---
 path: The-urgency-of-company-flexibility-during-periods-of-crisis
 date: 2020-05-18T10:27:00.408Z
-title: The urgency of company flexibility during periods of crisis
+title: The Urgency of Company Flexibility During Periods of Crisis
 peek: The current COVID-19 pandemic has brought many questions in regard to how
   managers should prepare their companies to face periods of crisis.  Efficient
   inventory control and cash flow management are obviously important factors to
