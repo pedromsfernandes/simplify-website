@@ -1,7 +1,7 @@
 ---
 path: how-to-keep-everything-under-control
 date: 2020-06-08T09:53:00.000Z
-title: How to keep everything under control?
+title: How to Keep Everything Under Control
 peek: In times like this, where everything is different and we often feel we
   lost the control we had on many aspects of our everyday lives, it’s important
   to stop, take a deep breath and think, “how do I manage to keep everything
