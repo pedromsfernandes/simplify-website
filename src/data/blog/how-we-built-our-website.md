@@ -1,7 +1,7 @@
 ---
 path: how-we-built-our-website
 date: 2020-06-01T09:33:59.898Z
-title: How we built our website
+title: How We Built Our Website
 peek: "If you're an aspiring web developer, then you probably know that the
   frontend market is largely occupied by three great frameworks/ libraries:
   React, Vue and Angular. Theoretically we could settle for one of these to
