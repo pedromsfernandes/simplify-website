@@ -1,7 +1,7 @@
 ---
 path: Flex-Office-The-trend-that-came-to-revolutionize-the-workplace
 date: 2020-06-22T09:42:20.097Z
-title: "Flex Office: The trend that came to revolutionize the workplace"
+title: "Flex Office: The Trend That Came to Revolutionize the Workplace"
 peek: The digital era that we’re going through has brought new concepts and
   possibilities to the working place. With practices becoming more digital, with
   the existence of devices such as laptops and smart phones, work can be done
