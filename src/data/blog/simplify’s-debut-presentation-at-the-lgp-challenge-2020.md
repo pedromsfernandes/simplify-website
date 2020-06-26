@@ -13,16 +13,24 @@ img: /assets/press_release.png
 
 Under its narrative title, *“Simplifying Everyday Life for a Sustainable Future”,* Simplify will provide the audience with an immersive and interactive experience sharing its vision, mission, values and products in a creative fashion.
 
+
+
 > “Following the Sustainable Development Goals as a company is hugely important for the environment. Simplify will address their involvement and signature goals during a hands-on experience between company and audience to start a conversation and share their vision.” 
 >
 > \- Andrè Ramada, CEO
 
+
+
 The presentation will focus on the company's mission to help remove the burden of everyday tasks and help promote a better understanding on unapparent topics by incorporating audiovisual performances, relatable experiences, a close connection to the audience and role play during the showcase to establish an open minded experience that creates a conversation rather than a one sided presentation.
+
+
 
 > “Twinkling lights, a rumbling whisper that turns silent as the projector fades in portraying an image on the auditorium’s screen. This is not a movie theater, but the brisk adrenaline rush of a live public speaking event partnered with an interactive multimedia presentation. This is Simplify at the LGP Challenge 2020.” 
 >
 > \- Aisha Jeanette Animashaun, CMO
+>
+>
 
-For more information on the event, please visit the event's website: [www.lgp.fe.up.pt ](https://www.lgp.fe.up.pt/)
+For more information on the event, please visit the event's website under: [www.lgp.fe.up.pt ](https://www.lgp.fe.up.pt/)
 
-For more information on the companies involvement, please contact Simplify’s press team via email at press@simplify-lgp.tech.
+For more information on the company's involvement, please contact Simplify’s press team via email at press@simplify-lgp.tech.
