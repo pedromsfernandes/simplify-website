@@ -1,7 +1,7 @@
 ---
 path: press-release-lgp-challenge-2020
 date: 2020-06-26T10:50:31.200Z
-title: Simplify’s debut presentation at the LGP Challenge 2020
+title: Simplify’s Debut Presentation at the LGP Challenge 2020
 peek: Simplify is excited to announce that it is going to partake in its first
   public event, the “Let’s Get Public Challenge” hosted by FEUP on the 3rd of
   July 2020 to present company and products while referencing its relevance to
