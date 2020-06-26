@@ -7,7 +7,7 @@ peek: PORTO, Portugal. Simplify is excited to announce that it is going to
   FEUP on the 3rd of July 2020 to present company and products while referencing
   its relevance to the sustainable development goals by the UN.
 author: Aisha Animashaun
-img: /assets/press-release-1-.png
+img: /assets/press_release.png
 ---
 ## Simplify’s debut presentation at the LGP Challenge 2020
 
