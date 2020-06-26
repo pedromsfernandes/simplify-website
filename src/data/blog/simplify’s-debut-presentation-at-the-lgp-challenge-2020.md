@@ -23,6 +23,6 @@ The presentation will focus on the company's mission to help remove the burden o
 >
 > \- Aisha Jeanette Animashaun, CMO
 
-For more information on the event, please visit the event's website: [www.lgp.fe.up.pt ](www.lgp.fe.up.pt)
+For more information on the event, please visit the event's website: [www.lgp.fe.up.pt ](https://www.lgp.fe.up.pt/)
 
 For more information on the companies involvement, please contact Simplify’s press team via email at press@simplify-lgp.tech.
