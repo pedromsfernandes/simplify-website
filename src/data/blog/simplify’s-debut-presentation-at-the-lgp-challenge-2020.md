@@ -9,9 +9,7 @@ peek: Simplify is excited to announce that it is going to partake in its first
 author: Aisha Animashaun
 img: /assets/press_release.png
 ---
-## Simplify’s debut presentation at the LGP Challenge 2020
-
-PORTO, Portugal. Simplify is excited to announce that it is going to partake in its first public event, the “Let’s Get Public Challenge” hosted by FEUP on the 3rd of July 2020 to present company and products while referencing its relevance to the sustainable development goals by the UN, which has been chosen as the event’s annually changing theme.
+**PORTO, Portugal.** Simplify is excited to announce that it is going to partake in its first public event, the “Let’s Get Public Challenge” hosted by FEUP on the 3rd of July 2020 to present company and products while referencing its relevance to the sustainable development goals by the UN, which has been chosen as the event’s annually changing theme.
 
 Under its narrative title, *“Simplifying Everyday Life for a Sustainable Future”,* Simplify will provide the audience with an immersive and interactive experience sharing its vision, mission, values and products in a creative fashion.
 
