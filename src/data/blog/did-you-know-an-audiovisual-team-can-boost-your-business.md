@@ -1,6 +1,6 @@
 ---
 path: Did-You-Know-an-Audiovisual-Team-Can-Boost-Your-Business
-date: 2020-06-29T10:03:23.481Z
+date: 2020-06-29T11:03:00.000Z
 title: Did You Know an Audiovisual Team Can Boost Your Business?
 peek: Every project is a new challenge to be faced by the audiovisual team who
   gathers forces to think outside the box, creating solutions that make sense
